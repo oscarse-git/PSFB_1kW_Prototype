@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UA78M05CDCYG3
+D TEXAS INSTRUMENTS - UA78M05CDCYG3 . - Linear Voltage Regulator, 7805, Fixed, Positive Voltage, 7V To 25V In, 5V And 0.5A Out, SOT-223-3
+K
+F https://www.ti.com/lit/ds/symlink/ua78m.pdf?ts=1600084265750&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+#End Doc Library

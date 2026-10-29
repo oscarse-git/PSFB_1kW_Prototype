@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3639HMSE#PBF
+D High Efficiency, 150V 100mA Synchronous Step-Down Regulator
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3639fd.pdf
+$ENDCMP
+#
+#End Doc Library

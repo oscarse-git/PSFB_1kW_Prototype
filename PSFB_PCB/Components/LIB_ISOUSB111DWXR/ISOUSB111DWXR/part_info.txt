@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ISOUSB111DWXR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2023-01-20 02:53:40
+Downloaded=2026-10-14 14:08:31
+3D=Y

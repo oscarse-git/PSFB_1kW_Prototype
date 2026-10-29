@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA356AIDBVT
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2020-02-26 11:36:32
+Downloaded=2026-10-13 12:37:28
+3D=Y

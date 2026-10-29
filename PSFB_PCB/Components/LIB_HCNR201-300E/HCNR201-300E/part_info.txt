@@ -1,0 +1,9 @@
+Manufacturer=Avago Technologies
+PartNumber=HCNR201-300E
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2019-02-12 22:52:56
+Downloaded=2026-10-13 12:28:59
+3D=Y

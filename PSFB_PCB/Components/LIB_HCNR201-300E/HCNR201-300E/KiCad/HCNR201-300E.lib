@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model HCNR201-300E
+#/888316/1311107/2.50/8/4/Integrated Circuit
+DEF HCNR201-300E IC 0 30 Y Y 1 F N
+F0 "IC" 1650 300 50 H V L CNN
+F1 "HCNR201-300E" 1650 200 50 H V L CNN
+F2 "HCNR201300E" 1650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-6/DSA-115859.pdf" 1650 0 50 H I L CNN
+F4 "Broadcom, HCNR201-300E DC Input Photodiode Output Optocoupler, Surface Mount, 8-Pin PDIP-W" 1650 -100 50 H I L CNN "Description"
+F5 "5" 1650 -200 50 H I L CNN "Height"
+F6 "630-HCNR201-300E" 1650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/HCNR201-300E?qs=xnajaXqBF9%2Fpqjck28%2FBeQ%3D%3D" 1650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Avago Technologies" 1650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "HCNR201-300E" 1650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X LED_CATHODE 1 0 0 200 R 50 50 0 0 P
+X LED_ANODE 2 0 -100 200 R 50 50 0 0 P
+X PD1_CATHODE 3 0 -200 200 R 50 50 0 0 P
+X PD1_ANODE 4 0 -300 200 R 50 50 0 0 P
+X PD2_ANODE 5 1800 -300 200 L 50 50 0 0 P
+X PD2_CATHODE 6 1800 -200 200 L 50 50 0 0 P
+X NC_1 7 1800 -100 200 L 50 50 0 0 P
+X NC_2 8 1800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

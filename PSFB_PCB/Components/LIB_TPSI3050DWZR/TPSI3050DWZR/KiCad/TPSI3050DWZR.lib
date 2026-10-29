@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPSI3050DWZR
+#/17444382/1311107/2.50/8/3/Integrated Circuit
+DEF TPSI3050DWZR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TPSI3050DWZR" 950 200 50 H V L CNN
+F2 "SOIC127P1150X280-8N" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tpsi3050.pdf?ts=1725435583662&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSI3050" 950 0 50 H I L CNN
+F4 "Galvanically Isolated Gate Drivers Isolated switch driver with integrated 10-V gate supply 8-SO-MOD -40 to 125" 950 -100 50 H I L CNN "Description"
+F5 "2.8" 950 -200 50 H I L CNN "Height"
+F6 "595-TPSI3050DWZR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPSI3050DWZR?qs=IPgv5n7u5QZU8a0pRpRx4Q%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPSI3050DWZR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X EN 1 0 0 200 R 50 50 0 0 P
+X PXFR 2 0 -100 200 R 50 50 0 0 P
+X VDDP 3 0 -200 200 R 50 50 0 0 P
+X VSSP 4 0 -300 200 R 50 50 0 0 P
+X VDRV 8 1100 0 200 L 50 50 0 0 P
+X VDDH 7 1100 -100 200 L 50 50 0 0 P
+X VDDM 6 1100 -200 200 L 50 50 0 0 P
+X VSSS 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS561246DRLR
+PartCategory=Integrated Circuit
+PackageCategory=SO Transistor Flat Lead
+PinCount=6
+Version=1.1
+Released=2025-01-06 09:34:29
+Downloaded=2026-10-15 17:53:56
+3D=Y

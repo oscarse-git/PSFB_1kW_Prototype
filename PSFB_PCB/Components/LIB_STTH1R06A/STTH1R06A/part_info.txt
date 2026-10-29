@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STTH1R06A
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.3
+Released=2015-09-01 16:33:09
+Downloaded=2026-10-20 19:24:48
+3D=Y

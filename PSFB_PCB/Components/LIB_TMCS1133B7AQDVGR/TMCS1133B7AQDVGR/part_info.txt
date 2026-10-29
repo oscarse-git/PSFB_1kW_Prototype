@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TMCS1133B7AQDVGR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=10
+Version=1.2
+Released=2026-01-23 09:32:52
+Downloaded=2026-10-12 19:49:07
+3D=Y

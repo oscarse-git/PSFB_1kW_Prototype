@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA356AIDBVT
+D Texas Instruments OPA356AIDBVT Op Amp, 200MHz CMOS, Rail to Rail, 3 V, 5 V, 5-Pin SOT-23
+K
+F http://www.ti.com/lit/gpn/opa356
+$ENDCMP
+#
+#End Doc Library

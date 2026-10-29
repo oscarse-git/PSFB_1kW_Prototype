@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV1702AIDGK
+D TEXAS INSTRUMENTS - TLV1702AIDGK - COMPARATOR, OPEN COLLECTOR, VSSOP-8
+K
+F http://www.ti.com/lit/ds/symlink/tlv1702.pdf
+$ENDCMP
+#
+#End Doc Library

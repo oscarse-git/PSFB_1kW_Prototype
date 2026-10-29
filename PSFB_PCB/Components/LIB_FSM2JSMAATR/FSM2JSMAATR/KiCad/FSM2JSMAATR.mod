@@ -1,0 +1,52 @@
+PCBNEW-LibModule-V1  2026-10-21 14:18:34
+# encoding utf-8
+Units mm
+$INDEX
+FSM2J_1
+$EndINDEX
+$MODULE FSM2J_1
+Po 0 0 0 15 6ad8bbaa 00000000 ~~
+Li FSM2J_1
+Cd FSM2J_1
+Kw Switch
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.293 0.022 1.27 1.27 0 0.254 N V 21 N "S**"
+T1 -0.293 0.022 1.27 1.27 0 0.254 N I 21 N "FSM2J_1"
+DS -3 -3 3 -3 0.2 24
+DS 3 -3 3 3 0.2 24
+DS 3 3 -3 3 0.2 24
+DS -3 3 -3 -3 0.2 24
+DS -3 -3 -3 3 0.2 21
+DS -3 3 3 3 0.2 21
+DS 3 3 3 -3 0.2 21
+DS 3 -3 -3 -3 0.2 21
+DC 2.25 -6.539 2.198 -6.539 0.254 21
+$PAD
+Po 2.25 -4.55
+Sh "1" R 1.4 2.1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.25 4.55
+Sh "2" R 1.4 2.1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.25 -4.55
+Sh "3" R 1.4 2.1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.25 4.55
+Sh "4" R 1.4 2.1 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE FSM2J_1
+$EndLIBRARY

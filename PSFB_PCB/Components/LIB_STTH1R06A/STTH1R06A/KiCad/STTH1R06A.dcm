@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STTH1R06A
+D STTH1R06A, Fast Rectifier Diode,  Switching 1A max, 600V 45ns, 2-Pin, SMA
+K
+F https://www.st.com/resource/en/datasheet/stth1r06.pdf
+$ENDCMP
+#
+#End Doc Library

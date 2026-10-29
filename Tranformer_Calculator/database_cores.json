@@ -1,0 +1,4498 @@
+[
+    {
+        "id": "0T42019EC",
+        "Bmax": 0.5,
+        "Ae": 29,
+        "D": 7.7,
+        "M": 3.25,
+        "Aw": 25.02,
+        "Ve": 1460,
+        "AL": 1540,
+        "Ploss": 590,
+        "type_id": "EFD",
+        "geometry_code": "EC",
+        "core_pieces_per_set": 2,
+        "A": 20.0,
+        "B": 10.0,
+        "C": 6.65,
+        "E": 15.4,
+        "F": 8.9,
+        "K": 3.6,
+        "L": 2.3,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 20.0,
+                "tolerance_minus_mm": -0.55,
+                "tolerance_plus_mm": 0.55,
+                "min_mm": 19.45,
+                "max_mm": 20.55,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 10.0,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 9.85,
+                "max_mm": 10.15,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 6.65,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 6.5,
+                "max_mm": 6.8,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 7.7,
+                "tolerance_minus_mm": -0.25,
+                "tolerance_plus_mm": 0.25,
+                "min_mm": 7.45,
+                "max_mm": 7.95,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 15.4,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.5,
+                "min_mm": 14.9,
+                "max_mm": 15.9,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 8.9,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 8.7,
+                "max_mm": 9.1,
+                "qualifier": "nominal"
+            },
+            "K": {
+                "nominal_mm": 3.6,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 3.45,
+                "max_mm": 3.75,
+                "qualifier": "nominal"
+            },
+            "L": {
+                "nominal_mm": 2.3,
+                "min_mm": null,
+                "max_mm": null,
+                "qualifier": "reference"
+            },
+            "M": {
+                "nominal_mm": 3.25,
+                "min_mm": null,
+                "max_mm": null,
+                "qualifier": "reference"
+            }
+        },
+        "Ae_effective": 31.0,
+        "Amin": 29.0,
+        "le": 47.0,
+        "geometry_source": {
+            "file": "0T42019EC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 45,
+                "basis": "ordering-code table"
+            },
+            "sha256": "87266b2b87d6918433aff71a38bada4273ee3efb8cc4a9dd238926d39ba48ea0"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "EFD Aw uses a rectangular approximation from D and M; the sloping center post prevents treating it as an exact measured usable area.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "EFD 20",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 25.025,
+            "formula": "D * M",
+            "parameters_mm": {
+                "D": 7.7,
+                "M": 3.25
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 1540,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 0.86,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 589.0410958904109
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 0.82,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 561.6438356164383
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.2054794520547909,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T44444EC",
+        "Bmax": 0.5,
+        "Ae": 172,
+        "D": 16.1,
+        "E": 32.5,
+        "F": 15.2,
+        "Aw": 139.27,
+        "Ve": 17800,
+        "AL": 4640,
+        "Ploss": 630,
+        "type_id": "ETD",
+        "geometry_code": "EC",
+        "core_pieces_per_set": 2,
+        "A": 45.0,
+        "B": 22.3,
+        "C": 15.2,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 45.0,
+                "tolerance_minus_mm": -2.0,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 43.0,
+                "max_mm": 45.0,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 22.3,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 22.1,
+                "max_mm": 22.5,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 15.2,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 14.6,
+                "max_mm": 15.2,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 16.1,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.8,
+                "min_mm": 16.1,
+                "max_mm": 16.9,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 32.5,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 1.6,
+                "min_mm": 32.5,
+                "max_mm": 34.1,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 15.2,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 14.6,
+                "max_mm": 15.2,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 173.0,
+        "Amin": 172.0,
+        "le": 103.0,
+        "geometry_source": {
+            "file": "0T44444EC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 47,
+                "basis": "ordering-code table"
+            },
+            "sha256": "0fd92a081d4de366ace3e511815b4f9ace898e87de8ffbb00830197078c8083e"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "ETD 44",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 139.265,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 16.1,
+                "E": 32.5,
+                "F": 15.2
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 4640,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 630,
+                "maximum_power_W": 11.21,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 629.7752808988764
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 600,
+                "maximum_power_W": 10.68,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 600.0
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.10674157303369736,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T43939EC",
+        "Bmax": 0.5,
+        "Ae": 123,
+        "D": 14.2,
+        "E": 29.3,
+        "F": 12.8,
+        "Aw": 117.15,
+        "Ve": 11500,
+        "AL": 3650,
+        "Ploss": 500,
+        "type_id": "ETD",
+        "geometry_code": "EC",
+        "core_pieces_per_set": 2,
+        "A": 40.0,
+        "B": 19.8,
+        "C": 12.8,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 40.0,
+                "tolerance_minus_mm": -1.8,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 38.2,
+                "max_mm": 40.0,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 19.8,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 19.6,
+                "max_mm": 20.0,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 12.8,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 12.2,
+                "max_mm": 12.8,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 14.2,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.8,
+                "min_mm": 14.2,
+                "max_mm": 15.0,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 29.3,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 1.6,
+                "min_mm": 29.3,
+                "max_mm": 30.9,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 12.8,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 12.2,
+                "max_mm": 12.8,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 125.0,
+        "Amin": 123.0,
+        "le": 92.2,
+        "geometry_source": {
+            "file": "0T43939EC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 47,
+                "basis": "ordering-code table"
+            },
+            "sha256": "4365796b8fc1268d3dc876dd54667f64c0f6a7f80f2ef5db6d8cd87fc1f023df"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "ETD 39",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 117.15,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 14.2,
+                "E": 29.3,
+                "F": 12.8
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 3650,
+            "minimum_nH_per_turn2": 2737.5,
+            "tolerance_percent": null,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 500,
+                "maximum_power_W": 5.75,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 500.0
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 480,
+                "maximum_power_W": 5.52,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 480.0
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.21739130434783593,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN",
+                "AL_UNIT_HEADER_ABBREVIATED"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T-44949-EC",
+        "Bmax": 0.5,
+        "Ae": 209,
+        "D": 17.7,
+        "E": 36.1,
+        "F": 16.7,
+        "Aw": 171.69,
+        "Ve": 24000,
+        "AL": 5140,
+        "Ploss": 630,
+        "type_id": "ETD",
+        "geometry_code": "EC",
+        "core_pieces_per_set": 2,
+        "A": 49.8,
+        "B": 24.7,
+        "C": 16.7,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 49.8,
+                "tolerance_minus_mm": -2.2,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 47.6,
+                "max_mm": 49.8,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 24.7,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 24.5,
+                "max_mm": 24.9,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 16.7,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 16.1,
+                "max_mm": 16.7,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 17.7,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.8,
+                "min_mm": 17.7,
+                "max_mm": 18.5,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 36.1,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 1.8,
+                "min_mm": 36.1,
+                "max_mm": 37.9,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 16.7,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 16.1,
+                "max_mm": 16.7,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 211.0,
+        "Amin": 209.0,
+        "le": 114.0,
+        "geometry_source": {
+            "file": "0T44949EC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 47,
+                "basis": "ordering-code table"
+            },
+            "sha256": "286edd0681ba4ecc5adafb5ac36c944b94c251799870a78172d0ebf77109f3c9"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "ETD 49",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 171.69,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 17.7,
+                "E": 36.1,
+                "F": 16.7
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 5140,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 630,
+                "maximum_power_W": 15.12,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 630.0
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 600,
+                "maximum_power_W": 14.4,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 600.0
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.22500000000000853,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T42523EC",
+        "Bmax": 0.5,
+        "Ae": 55,
+        "D": 9.05,
+        "M": 3.65,
+        "Aw": 33.03,
+        "Ve": 3300,
+        "AL": 2660,
+        "Ploss": 590,
+        "type_id": "EFD",
+        "geometry_code": "EC",
+        "core_pieces_per_set": 2,
+        "A": 25.0,
+        "B": 12.5,
+        "C": 9.1,
+        "E": 18.1,
+        "F": 11.4,
+        "K": 5.2,
+        "L": 3.15,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 25.0,
+                "tolerance_minus_mm": -0.66,
+                "tolerance_plus_mm": 0.66,
+                "min_mm": 24.34,
+                "max_mm": 25.66,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 12.5,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 12.35,
+                "max_mm": 12.65,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 9.1,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 8.9,
+                "max_mm": 9.3,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": null,
+                "min_mm": 9.05,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "E": {
+                "nominal_mm": null,
+                "min_mm": 18.1,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "F": {
+                "nominal_mm": 11.4,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 11.2,
+                "max_mm": 11.6,
+                "qualifier": "nominal"
+            },
+            "K": {
+                "nominal_mm": 5.2,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 5.05,
+                "max_mm": 5.35,
+                "qualifier": "nominal"
+            },
+            "L": {
+                "nominal_mm": 3.15,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 2.95,
+                "max_mm": 3.35,
+                "qualifier": "nominal"
+            },
+            "M": {
+                "nominal_mm": 3.65,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 3.45,
+                "max_mm": 3.85,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 58.0,
+        "Amin": 55.0,
+        "le": 57.0,
+        "geometry_source": {
+            "file": "0T42523EC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 45,
+                "basis": "ordering-code table"
+            },
+            "sha256": "b7e574c389680bb95522c9bda37b393f83b58fa03b2021d01c8ff35bc2c7a3a1"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "EFD Aw uses a rectangular approximation from D and M; the sloping center post prevents treating it as an exact measured usable area.",
+            "D and E are minimum dimensions, not nominal; D=9.05 and M=3.65 form a mixed-basis area estimate, not a certified nominal area or full worst-case bound.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "EFD 25",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 33.0325,
+            "formula": "D * M",
+            "parameters_mm": {
+                "D": 9.05,
+                "M": 3.65
+            },
+            "basis": "single_half_approximation_with_minimum_D_and_nominal_M_manual_factor_2",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 2660,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 1.95,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 590.9090909090909
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 1.85,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 560.6060606060606
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.1818181818181719,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T42625UG",
+        "Bmax": 0.5,
+        "Ae": 108,
+        "D": 8.05,
+        "E": 22.5,
+        "F": 12.0,
+        "Aw": 42.26,
+        "Ve": 6530,
+        "AL": 6010,
+        "Ploss": 590,
+        "type_id": "PQ",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 27.3,
+        "B": 12.35,
+        "2B": 24.7,
+        "C": 19.0,
+        "2D": 16.1,
+        "G": 15.5,
+        "H": 6.0,
+        "J": 10.5,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 27.3,
+                "tolerance_minus_mm": -0.46,
+                "tolerance_plus_mm": 0.46,
+                "min_mm": 26.84,
+                "max_mm": 27.76,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 12.35,
+                "tolerance_minus_mm": -0.13,
+                "tolerance_plus_mm": 0.13,
+                "min_mm": 12.22,
+                "max_mm": 12.48,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 24.7,
+                "tolerance_minus_mm": -0.25,
+                "tolerance_plus_mm": 0.25,
+                "min_mm": 24.45,
+                "max_mm": 24.95,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 19.0,
+                "tolerance_minus_mm": -0.45,
+                "tolerance_plus_mm": 0.45,
+                "min_mm": 18.55,
+                "max_mm": 19.45,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 8.05,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 7.9,
+                "max_mm": 8.2,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 16.1,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 15.8,
+                "max_mm": 16.4,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 22.5,
+                "tolerance_minus_mm": -0.46,
+                "tolerance_plus_mm": 0.46,
+                "min_mm": 22.04,
+                "max_mm": 22.96,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 12.0,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 11.8,
+                "max_mm": 12.2,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 15.5,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "H": {
+                "nominal_mm": null,
+                "min_mm": 6.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": null,
+                "min_mm": 10.5,
+                "max_mm": null,
+                "qualifier": "minimum"
+            }
+        },
+        "Ae_effective": 120.0,
+        "Amin": 108.0,
+        "le": 54.3,
+        "geometry_source": {
+            "file": "0T42625UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 57,
+                "basis": "ordering-code table"
+            },
+            "sha256": "ab9f432afc5a70192d730ba3fa87efc3ac086dddef0f5622890c853c2143ba09"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "PQ 26/25",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 42.2625,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 8.05,
+                "E": 22.5,
+                "F": 12.0
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 6010,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 3.85,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 589.5865237366003
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 3.66,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 560.490045941807
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.21439509954058744,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T42620UG",
+        "Bmax": 0.5,
+        "Ae": 109,
+        "D": 5.75,
+        "E": 22.5,
+        "F": 12.0,
+        "Aw": 30.19,
+        "Ve": 5470,
+        "AL": 7020,
+        "Ploss": 590,
+        "type_id": "PQ",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 27.3,
+        "B": 10.1,
+        "2B": 20.2,
+        "C": 19.0,
+        "2D": 11.5,
+        "G": 15.5,
+        "H": 5.5,
+        "J": 10.0,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 27.3,
+                "tolerance_minus_mm": -0.46,
+                "tolerance_plus_mm": 0.46,
+                "min_mm": 26.84,
+                "max_mm": 27.76,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 10.1,
+                "tolerance_minus_mm": -0.13,
+                "tolerance_plus_mm": 0.13,
+                "min_mm": 9.97,
+                "max_mm": 10.23,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 20.2,
+                "tolerance_minus_mm": -0.25,
+                "tolerance_plus_mm": 0.25,
+                "min_mm": 19.95,
+                "max_mm": 20.45,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 19.0,
+                "tolerance_minus_mm": -0.45,
+                "tolerance_plus_mm": 0.45,
+                "min_mm": 18.55,
+                "max_mm": 19.45,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 5.75,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 5.6,
+                "max_mm": 5.9,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 11.5,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 11.2,
+                "max_mm": 11.8,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 22.5,
+                "tolerance_minus_mm": -0.45,
+                "tolerance_plus_mm": 0.45,
+                "min_mm": 22.05,
+                "max_mm": 22.95,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 12.0,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 11.8,
+                "max_mm": 12.2,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 15.5,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "H": {
+                "nominal_mm": null,
+                "min_mm": 5.5,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": null,
+                "min_mm": 10.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            }
+        },
+        "Ae_effective": 121.0,
+        "Amin": 109.0,
+        "le": 45.0,
+        "geometry_source": {
+            "file": "0T42620UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 57,
+                "basis": "ordering-code table"
+            },
+            "sha256": "0810383004f8c0b97a143fb1ee82c003dc1d370781a8fd170367b93c9ce58779"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "PQ 26/20",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 30.1875,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 5.75,
+                "E": 22.5,
+                "F": 12.0
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 7020,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 3.23,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 590.4936014625229
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 3.06,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 559.4149908592321
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.4570383912248621,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T42016UG",
+        "Bmax": 0.5,
+        "Ae": 59.1,
+        "D": 5.15,
+        "E": 18.0,
+        "F": 8.8,
+        "Aw": 23.69,
+        "Ve": 2330,
+        "AL": 4080,
+        "Ploss": 590,
+        "type_id": "PQ",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 21.3,
+        "B": 8.1,
+        "2B": 16.2,
+        "C": 14.0,
+        "2D": 10.3,
+        "G": 12.0,
+        "H": 4.0,
+        "J": 8.13,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 21.3,
+                "tolerance_minus_mm": -0.4,
+                "tolerance_plus_mm": 0.4,
+                "min_mm": 20.9,
+                "max_mm": 21.7,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 8.1,
+                "tolerance_minus_mm": -0.1,
+                "tolerance_plus_mm": 0.1,
+                "min_mm": 8.0,
+                "max_mm": 8.2,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 16.2,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 16.0,
+                "max_mm": 16.4,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 14.0,
+                "tolerance_minus_mm": -0.4,
+                "tolerance_plus_mm": 0.4,
+                "min_mm": 13.6,
+                "max_mm": 14.4,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 5.15,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 5.0,
+                "max_mm": 5.3,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 10.3,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 10.0,
+                "max_mm": 10.6,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 18.0,
+                "tolerance_minus_mm": -0.4,
+                "tolerance_plus_mm": 0.4,
+                "min_mm": 17.6,
+                "max_mm": 18.4,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 8.8,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 8.6,
+                "max_mm": 9.0,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 12.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "H": {
+                "nominal_mm": null,
+                "min_mm": 4.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": 8.13,
+                "min_mm": null,
+                "max_mm": null,
+                "qualifier": "unspecified"
+            }
+        },
+        "Ae_effective": 61.9,
+        "Amin": 59.1,
+        "le": 37.6,
+        "geometry_source": {
+            "file": "0T42016UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 57,
+                "basis": "ordering-code table"
+            },
+            "sha256": "5bcb4af7d8b84eb76d4810e32427d1c32a462ed8931c36dba0e00550acdd200a"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "PQ 20/16",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 23.69,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 5.15,
+                "E": 18.0,
+                "F": 8.8
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 4080,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 1.37,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 587.9828326180258
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 1.3,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 557.9399141630902
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.10987124463519571,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T45050UG",
+        "Bmax": 0.5,
+        "Ae": 314,
+        "D": 18.05,
+        "E": 44.0,
+        "F": 20.0,
+        "Aw": 216.6,
+        "Ve": 37100,
+        "AL": 9200,
+        "Ploss": 630,
+        "type_id": "PQ",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 51.0,
+        "B": 25.0,
+        "2B": 50.0,
+        "C": 32.0,
+        "2D": 36.1,
+        "G": 32.0,
+        "H": 8.15,
+        "J": 18.0,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 51.0,
+                "tolerance_minus_mm": -0.7,
+                "tolerance_plus_mm": 0.7,
+                "min_mm": 50.3,
+                "max_mm": 51.7,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 25.0,
+                "tolerance_minus_mm": -0.25,
+                "tolerance_plus_mm": 0.25,
+                "min_mm": 24.75,
+                "max_mm": 25.25,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 50.0,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.5,
+                "min_mm": 49.5,
+                "max_mm": 50.5,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 32.0,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.6,
+                "min_mm": 31.4,
+                "max_mm": 32.6,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 18.05,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 17.75,
+                "max_mm": 18.35,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 36.1,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.6,
+                "min_mm": 35.5,
+                "max_mm": 36.7,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 44.0,
+                "tolerance_minus_mm": -0.7,
+                "tolerance_plus_mm": 0.7,
+                "min_mm": 43.3,
+                "max_mm": 44.7,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 20.0,
+                "tolerance_minus_mm": -0.35,
+                "tolerance_plus_mm": 0.35,
+                "min_mm": 19.65,
+                "max_mm": 20.35,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 32.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "H": {
+                "nominal_mm": null,
+                "min_mm": 8.15,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": null,
+                "min_mm": 18.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            }
+        },
+        "Ae_effective": 328.0,
+        "Amin": 314.0,
+        "le": 113.0,
+        "geometry_source": {
+            "file": "0T45050UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 57,
+                "basis": "ordering-code table"
+            },
+            "sha256": "abbc4a327adfff514b4543001974b1a5710875c4ec0c24c24a9b13db849851aa"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "PQ 50/50",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 216.6,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 18.05,
+                "E": 44.0,
+                "F": 20.0
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 9200,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 630,
+                "maximum_power_W": 23.4,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 630.7277628032346
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 600,
+                "maximum_power_W": 22.4,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 603.7735849056604
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.09703504043127031,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T43230UG",
+        "Bmax": 0.5,
+        "Ae": 142,
+        "D": 10.65,
+        "E": 27.5,
+        "F": 13.5,
+        "Aw": 74.55,
+        "Ve": 12500,
+        "AL": 6570,
+        "Ploss": 630,
+        "type_id": "PQ",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 33.0,
+        "B": 15.15,
+        "2B": 30.3,
+        "C": 22.0,
+        "2D": 21.3,
+        "G": 19.0,
+        "H": 5.5,
+        "J": 11.6,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 33.0,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.5,
+                "min_mm": 32.5,
+                "max_mm": 33.5,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 15.15,
+                "tolerance_minus_mm": -0.13,
+                "tolerance_plus_mm": 0.13,
+                "min_mm": 15.02,
+                "max_mm": 15.28,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 30.3,
+                "tolerance_minus_mm": -0.25,
+                "tolerance_plus_mm": 0.25,
+                "min_mm": 30.05,
+                "max_mm": 30.55,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 22.0,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.5,
+                "min_mm": 21.5,
+                "max_mm": 22.5,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 10.65,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 10.5,
+                "max_mm": 10.8,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 21.3,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 21.0,
+                "max_mm": 21.6,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 27.5,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.5,
+                "min_mm": 27.0,
+                "max_mm": 28.0,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 13.5,
+                "tolerance_minus_mm": -0.25,
+                "tolerance_plus_mm": 0.25,
+                "min_mm": 13.25,
+                "max_mm": 13.75,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 19.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "H": {
+                "nominal_mm": null,
+                "min_mm": 5.5,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": null,
+                "min_mm": 11.6,
+                "max_mm": null,
+                "qualifier": "minimum"
+            }
+        },
+        "Ae_effective": 167.0,
+        "Amin": 142.0,
+        "le": 74.7,
+        "geometry_source": {
+            "file": "0T43230UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 57,
+                "basis": "ordering-code table"
+            },
+            "sha256": "25e0dbc7169041c40ba526d920821176ae968bdfd279ac89b1494457c63a9cf8"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "PQ 32/30",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 74.55,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 10.65,
+                "E": 27.5,
+                "F": 13.5
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 6570,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 630,
+                "maximum_power_W": 7.8,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 624.0
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 600,
+                "maximum_power_W": 7.5,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 600.0
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.20080000000000098,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T44040UG",
+        "Bmax": 0.5,
+        "Ae": 175,
+        "D": 14.75,
+        "E": 37.0,
+        "F": 14.9,
+        "Aw": 162.99,
+        "Ve": 20500,
+        "AL": 6100,
+        "Ploss": 629.2682926829268,
+        "type_id": "PQ",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 41.5,
+        "B": 19.9,
+        "2B": 39.8,
+        "C": 28.0,
+        "2D": 29.5,
+        "G": 28.0,
+        "H": 6.05,
+        "J": 15.0,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 41.5,
+                "tolerance_minus_mm": -0.9,
+                "tolerance_plus_mm": 0.9,
+                "min_mm": 40.6,
+                "max_mm": 42.4,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 19.9,
+                "tolerance_minus_mm": -0.15,
+                "tolerance_plus_mm": 0.15,
+                "min_mm": 19.75,
+                "max_mm": 20.05,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 39.8,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 39.5,
+                "max_mm": 40.1,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 28.0,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.6,
+                "min_mm": 27.4,
+                "max_mm": 28.6,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 14.75,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 14.55,
+                "max_mm": 14.95,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 29.5,
+                "tolerance_minus_mm": -0.4,
+                "tolerance_plus_mm": 0.4,
+                "min_mm": 29.1,
+                "max_mm": 29.9,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 37.0,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.6,
+                "min_mm": 36.4,
+                "max_mm": 37.6,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 14.9,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 14.6,
+                "max_mm": 15.2,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 28.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "H": {
+                "nominal_mm": null,
+                "min_mm": 6.05,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": null,
+                "min_mm": 15.0,
+                "max_mm": null,
+                "qualifier": "minimum"
+            }
+        },
+        "Ae_effective": 201.0,
+        "Amin": 175.0,
+        "le": 102.0,
+        "geometry_source": {
+            "file": "0T44040UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 57,
+                "basis": "ordering-code table"
+            },
+            "sha256": "9d49306da822d79a3d7a723b1206412697513a71089cb6669cbd17477dc27fcd"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "PQ 40/40",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 162.9875,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 14.75,
+                "E": 37.0,
+                "F": 14.9
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 6100,
+            "minimum_nH_per_turn2": 4575,
+            "tolerance_percent": null,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 629.2682926829268,
+                "maximum_power_W": 12.9,
+                "density_basis": "calculated_from_power_and_Ve",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 629.2682926829268
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 600.0,
+                "maximum_power_W": 12.3,
+                "density_basis": "calculated_from_power_and_Ve",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 600.0
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "calculated_from_power_and_Ve"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.009756097560975618,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "0T41506TC",
+        "Bmax": 0.5,
+        "Ae": 11.2,
+        "B": 7.37,
+        "Aw": 42.66,
+        "Ve": 343,
+        "AL": 1320,
+        "Ploss": 500,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 13.2,
+        "C": 3.96,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 13.2,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 12.93,
+                "max_mm": 13.47,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 7.37,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 7.11,
+                "max_mm": 7.63,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 3.96,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 3.83,
+                "max_mm": 4.09,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 11.2,
+        "Amin": null,
+        "le": 30.6,
+        "geometry_source": {
+            "file": "0T41506TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "077ef89d814704d763ef2504aaa0522fd5b90c71a4c990b35a3531b7ef6b1dd2"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Coated limits in the DIMENSIONS header conflict with Uncoated in COATING. Values retained as printed; physical interpretation requires manufacturer confirmation."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 42.660393501442854,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 7.37
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 1320,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 500,
+                "maximum_power_W": 0.172,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 501.45772594752185
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 480,
+                "maximum_power_W": 0.165,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 481.04956268221576
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.08163265306123657,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN",
+                "COATING_COLUMN_LABEL_CONFLICT"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "0T-40603-TC",
+        "Bmax": 0.5,
+        "Ae": 4.28,
+        "B": 3.05,
+        "Aw": 7.31,
+        "Ve": 55.8,
+        "AL": 1200,
+        "Ploss": 520,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 5.84,
+        "C": 3.18,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 5.84,
+                "nominal_basis": "uncoated",
+                "limit_basis": "uncoated",
+                "min_mm": 5.55,
+                "max_mm": 6.13,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 3.05,
+                "nominal_basis": "uncoated",
+                "limit_basis": "uncoated",
+                "min_mm": 2.76,
+                "max_mm": 3.34,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 3.18,
+                "nominal_basis": "uncoated",
+                "limit_basis": "uncoated",
+                "min_mm": 2.93,
+                "max_mm": 3.43,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 4.28,
+        "Amin": null,
+        "le": 13.0,
+        "geometry_source": {
+            "file": "0T40603TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "2bd50ca14099695625e14a514d9a77b13476bc0f2cd8c4a166193aa40d8f3770"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 7.306166415004762,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 3.05
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 1200,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 520,
+                "maximum_power_W": 0.029,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 519.7132616487455
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 484,
+                "maximum_power_W": 0.027,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 483.8709677419355
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.28673835125447855,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "ZT41605TC",
+        "Bmax": 0.5,
+        "Ae": 15.6,
+        "B": 9.07,
+        "Aw": 64.61,
+        "Ve": 580,
+        "AL": 1580,
+        "Ploss": 715,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 15.9,
+        "C": 4.7,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 15.9,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 15.66,
+                "max_mm": 16.64,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 9.07,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 8.12,
+                "max_mm": 9.52,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 4.7,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 4.69,
+                "max_mm": 5.21,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 15.6,
+        "Amin": null,
+        "le": 37.2,
+        "geometry_source": {
+            "file": "ZT41605TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "db748b518bd56c8724b8316b28e05df4f5d3df2ff8680ea357957469b87b164f"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 64.61070137207474,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 9.07
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 51.7847566647127,
+            "finished_aperture_max_mm2": 71.1809497079761
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 1580,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 715,
+                "maximum_power_W": 0.416,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 717.2413793103449,
+                "production_lot_average_max_density_mW_per_cm3": 650,
+                "production_lot_average_max_power_W": 0.378
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 673,
+                "maximum_power_W": 0.392,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 675.8620689655172,
+                "production_lot_average_max_density_mW_per_cm3": 612,
+                "production_lot_average_max_power_W": 0.356
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.05517241379311422,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "ZT42206TC",
+        "Bmax": 0.5,
+        "Ae": 25.8,
+        "B": 13.7,
+        "Aw": 147.41,
+        "Ve": 1395,
+        "AL": 1790,
+        "Ploss": 640,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 22.1,
+        "C": 6.25,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 22.1,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 21.84,
+                "max_mm": 22.86,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 13.7,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 12.95,
+                "max_mm": 13.95,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 6.25,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 6.39,
+                "max_mm": 6.91,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 25.8,
+        "Amin": null,
+        "le": 54.1,
+        "geometry_source": {
+            "file": "ZT42206TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "71d782a0e31a318d7062c2f70c997ade239b31b28bb4f79f9c88bf2eb249d529"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 147.41138128806705,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 13.7
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 131.71323549716055,
+            "finished_aperture_max_mm2": 152.84044609255193
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 1790,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 640,
+                "maximum_power_W": 0.892,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 639.426523297491,
+                "production_lot_average_max_density_mW_per_cm3": 610,
+                "production_lot_average_max_power_W": 0.85
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 614,
+                "maximum_power_W": 0.857,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 614.336917562724,
+                "production_lot_average_max_density_mW_per_cm3": 585,
+                "production_lot_average_max_power_W": 0.816
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.05591397849462609,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "ZT43813TC",
+        "Bmax": 0.5,
+        "Ae": 114.2,
+        "B": 19.0,
+        "Aw": 283.53,
+        "Ve": 9462,
+        "AL": 5190,
+        "Ploss": 715,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 38.1,
+        "C": 12.45,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 38.1,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 37.45,
+                "max_mm": 39.25,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 19.0,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 17.9,
+                "max_mm": 19.55,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 12.45,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 12.56,
+                "max_mm": 13.34,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 114.2,
+        "Amin": null,
+        "le": 82.9,
+        "geometry_source": {
+            "file": "ZT43813TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "850074c756c99bb417a6fbf6342486098a66b0a289aba8a0c696b152bc0e9e9c"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 283.5287369864788,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 19.0
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 251.64942553417637,
+            "finished_aperture_max_mm2": 300.18114154591325
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 5190,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 715,
+                "maximum_power_W": 6.76,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 714.4366941450011,
+                "production_lot_average_max_density_mW_per_cm3": 650,
+                "production_lot_average_max_power_W": 6.15
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 673,
+                "maximum_power_W": 6.37,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 673.2191925597125,
+                "production_lot_average_max_density_mW_per_cm3": 612,
+                "production_lot_average_max_power_W": 5.79
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.05474529697737651,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "ZT44015TC",
+        "Bmax": 0.5,
+        "Ae": 138,
+        "B": 26.2,
+        "Aw": 539.13,
+        "Ve": 14205,
+        "AL": 5040,
+        "Ploss": 610,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 41.8,
+        "C": 18.0,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 41.8,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 40.95,
+                "max_mm": 43.15,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 26.2,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 25.15,
+                "max_mm": 26.75,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 18.0,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 17.8,
+                "max_mm": 19.2,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 138.0,
+        "Amin": null,
+        "le": 103.0,
+        "geometry_source": {
+            "file": "ZT44015TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "3041a2ef45db9b893111488655210163fd8c471f81304bc348474dfb73801d8e"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 539.1287152825444,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 26.2
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 496.7820098075624,
+            "finished_aperture_max_mm2": 562.0014732960866
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 5040,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 610,
+                "maximum_power_W": 8.665,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 609.9964801126364
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 585,
+                "maximum_power_W": 8.31,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 585.0052798310455
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.06335797254488629,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "ZT43825TC",
+        "Bmax": 0.5,
+        "Ae": 231,
+        "B": 19.0,
+        "Aw": 283.53,
+        "Ve": 19152,
+        "AL": 10500,
+        "Ploss": 550,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 38.1,
+        "C": 25.2,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 38.1,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 37.45,
+                "max_mm": 39.25,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 19.0,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 17.9,
+                "max_mm": 19.6,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 25.2,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 25.11,
+                "max_mm": 26.29,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 231.0,
+        "Amin": null,
+        "le": 82.8,
+        "geometry_source": {
+            "file": "ZT43825TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "d3d3edda710ba7c9df50fd1c315d62c896d30d4cf0880cfadb380db2c0678a4b"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 283.5287369864788,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 19.0
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 251.64942553417637,
+            "finished_aperture_max_mm2": 301.7185584507638
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 10500,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 550,
+                "maximum_power_W": 10.54,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 550.3341687552214,
+                "production_lot_average_max_density_mW_per_cm3": 500,
+                "production_lot_average_max_power_W": 9.58
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 550,
+                "maximum_power_W": 10.54,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 550.3341687552214,
+                "production_lot_average_max_density_mW_per_cm3": 500,
+                "production_lot_average_max_power_W": 9.58
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.131578947368427,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "ZT47313TC",
+        "Bmax": 0.5,
+        "Ae": 210,
+        "B": 38.9,
+        "Aw": 1188.47,
+        "Ve": 34771,
+        "AL": 4790,
+        "Ploss": 880,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 73.7,
+        "C": 12.5,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 73.7,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 72.76,
+                "max_mm": 75.06,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 38.9,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 37.46,
+                "max_mm": 39.76,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 12.5,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 12.16,
+                "max_mm": 13.34,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 210.0,
+        "Amin": null,
+        "le": 165.0,
+        "geometry_source": {
+            "file": "ZT47313TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "4328ef577f6690e4b1e4bfde9e1c7bbd457b9f764d43c78bb1327bf8610c0b34"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 1188.4723548346526,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 38.9
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 1102.1112294245308,
+            "finished_aperture_max_mm2": 1241.6026556328977
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 4790,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 880,
+                "maximum_power_W": 30.7,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 882.9196744413448,
+                "production_lot_average_max_density_mW_per_cm3": 800,
+                "production_lot_average_max_power_W": 28.0
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 858,
+                "maximum_power_W": 30.0,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 862.7879554801415,
+                "production_lot_average_max_density_mW_per_cm3": 780,
+                "production_lot_average_max_power_W": 27.2
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.34799114204365766,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "NT42819UG",
+        "Bmax": 0.5,
+        "Ae": 89.1,
+        "D": 6.2,
+        "E": 21.2,
+        "F": 10.9,
+        "Aw": 31.93,
+        "Ve": 4310,
+        "AL": 5500,
+        "Ploss": 590,
+        "type_id": "RM",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 28.5,
+        "B": 9.3,
+        "2B": 18.6,
+        "C": 13.5,
+        "2D": 12.4,
+        "G": 10.9,
+        "J": 24.7,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 28.5,
+                "tolerance_minus_mm": -1.3,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 27.2,
+                "max_mm": 28.5,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 9.3,
+                "tolerance_minus_mm": -0.05,
+                "tolerance_plus_mm": 0.05,
+                "min_mm": 9.25,
+                "max_mm": 9.35,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 18.6,
+                "tolerance_minus_mm": -0.1,
+                "tolerance_plus_mm": 0.1,
+                "min_mm": 18.5,
+                "max_mm": 18.7,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 13.5,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 13.0,
+                "max_mm": 13.5,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 6.2,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.3,
+                "min_mm": 6.2,
+                "max_mm": 6.5,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 12.4,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.6,
+                "min_mm": 12.4,
+                "max_mm": 13.0,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 21.2,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.9,
+                "min_mm": 21.2,
+                "max_mm": 22.1,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 10.9,
+                "tolerance_minus_mm": -0.4,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 10.5,
+                "max_mm": 10.9,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 10.9,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": 24.7,
+                "tolerance_minus_mm": -1.1,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 23.6,
+                "max_mm": 24.7,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 96.6,
+        "Amin": 89.1,
+        "le": 44.6,
+        "geometry_source": {
+            "file": "NT42819UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 59,
+                "basis": "ordering-code table"
+            },
+            "sha256": "47a334b5f54cd441a240a6562c8dd8504c72407d376a5ed5db84fea0bd720f27"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "RM 10 N",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 31.93,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 6.2,
+                "E": 21.2,
+                "F": 10.9
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 5500,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 2.54,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 589.3271461716937
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 2.41,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 559.1647331786543
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.03805104408353133,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "NT42316UG",
+        "Bmax": 0.5,
+        "Ae": 55.4,
+        "D": 5.5,
+        "E": 17.0,
+        "F": 8.55,
+        "Aw": 23.24,
+        "Ve": 2440,
+        "AL": 4100,
+        "Ploss": 590,
+        "type_id": "RM",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 23.2,
+        "B": 8.2,
+        "2B": 16.4,
+        "C": 11.0,
+        "2D": 11.0,
+        "G": 9.5,
+        "J": 19.7,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 23.2,
+                "tolerance_minus_mm": -0.9,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 22.3,
+                "max_mm": 23.2,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 8.2,
+                "tolerance_minus_mm": -0.05,
+                "tolerance_plus_mm": 0.05,
+                "min_mm": 8.15,
+                "max_mm": 8.25,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 16.4,
+                "tolerance_minus_mm": -0.1,
+                "tolerance_plus_mm": 0.1,
+                "min_mm": 16.3,
+                "max_mm": 16.5,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 11.0,
+                "tolerance_minus_mm": -0.5,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 10.5,
+                "max_mm": 11.0,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 5.5,
+                "tolerance_minus_mm": -0.1,
+                "tolerance_plus_mm": 0.1,
+                "min_mm": 5.4,
+                "max_mm": 5.6,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 11.0,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 10.8,
+                "max_mm": 11.2,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 17.0,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.6,
+                "min_mm": 17.0,
+                "max_mm": 17.6,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 8.55,
+                "tolerance_minus_mm": -0.3,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 8.25,
+                "max_mm": 8.55,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": null,
+                "min_mm": 9.5,
+                "max_mm": null,
+                "qualifier": "minimum"
+            },
+            "J": {
+                "nominal_mm": 19.7,
+                "tolerance_minus_mm": -0.8,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 18.9,
+                "max_mm": 19.7,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 63.0,
+        "Amin": 55.4,
+        "le": 38.4,
+        "geometry_source": {
+            "file": "NT42316UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 59,
+                "basis": "ordering-code table"
+            },
+            "sha256": "87a5b2f226a7ab3c8da6f7423c7339666ce0179ead5bc3b9391e2df7c3db77f8"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "RM 8 N",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 23.2375,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 5.5,
+                "E": 17.0,
+                "F": 8.55
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 4100,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 590,
+                "maximum_power_W": 1.44,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 590.1639344262295
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 560,
+                "maximum_power_W": 1.37,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 561.4754098360655
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -0.8524590163934476,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "NT41812UG",
+        "Bmax": 0.5,
+        "Ae": 31.2,
+        "D": 4.0,
+        "E": 12.4,
+        "F": 6.4,
+        "Aw": 12.0,
+        "Ve": 1040,
+        "AL": 2830,
+        "Ploss": 642,
+        "type_id": "RM",
+        "geometry_code": "UG",
+        "core_pieces_per_set": 2,
+        "A": 17.9,
+        "B": 6.2,
+        "2B": 12.4,
+        "C": 7.4,
+        "2D": 8.0,
+        "G": 5.85,
+        "J": 14.7,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 17.9,
+                "tolerance_minus_mm": -0.7,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 17.2,
+                "max_mm": 17.9,
+                "qualifier": "nominal"
+            },
+            "B": {
+                "nominal_mm": 6.2,
+                "tolerance_minus_mm": -0.05,
+                "tolerance_plus_mm": 0.05,
+                "min_mm": 6.15,
+                "max_mm": 6.25,
+                "qualifier": "nominal"
+            },
+            "2B": {
+                "nominal_mm": 12.4,
+                "tolerance_minus_mm": -0.1,
+                "tolerance_plus_mm": 0.1,
+                "min_mm": 12.3,
+                "max_mm": 12.5,
+                "qualifier": "nominal"
+            },
+            "C": {
+                "nominal_mm": 7.4,
+                "tolerance_minus_mm": -0.4,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 7.0,
+                "max_mm": 7.4,
+                "qualifier": "nominal"
+            },
+            "D": {
+                "nominal_mm": 4.0,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.2,
+                "min_mm": 4.0,
+                "max_mm": 4.2,
+                "qualifier": "nominal"
+            },
+            "2D": {
+                "nominal_mm": 8.0,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.4,
+                "min_mm": 8.0,
+                "max_mm": 8.4,
+                "qualifier": "nominal"
+            },
+            "E": {
+                "nominal_mm": 12.4,
+                "tolerance_minus_mm": 0.0,
+                "tolerance_plus_mm": 0.5,
+                "min_mm": 12.4,
+                "max_mm": 12.9,
+                "qualifier": "nominal"
+            },
+            "F": {
+                "nominal_mm": 6.4,
+                "tolerance_minus_mm": -0.2,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 6.2,
+                "max_mm": 6.4,
+                "qualifier": "nominal"
+            },
+            "G": {
+                "nominal_mm": 5.85,
+                "min_mm": null,
+                "max_mm": null,
+                "qualifier": "nominal"
+            },
+            "J": {
+                "nominal_mm": 14.7,
+                "tolerance_minus_mm": -0.6,
+                "tolerance_plus_mm": 0.0,
+                "min_mm": 14.1,
+                "max_mm": 14.7,
+                "qualifier": "nominal"
+            }
+        },
+        "Ae_effective": 38.0,
+        "Amin": 31.2,
+        "le": 27.5,
+        "geometry_source": {
+            "file": "NT41812UG.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": 59,
+                "basis": "ordering-code table"
+            },
+            "sha256": "f85d4ac0909bed1c5fdf3843c6f379e2ac982e29fd5cde1279c46ad226da731d"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Aw retains the user convention: area of ONE HALF of one winding window. The user applies factor 2 outside this database for a two-piece assembled set. Do not multiply again in database processing."
+        ],
+        "type_name": "RM 6R N",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 12.0,
+            "formula": "D * (E - F) / 2",
+            "parameters_mm": {
+                "D": 4.0,
+                "E": 12.4,
+                "F": 6.4
+            },
+            "basis": "single_half_rectangular_approximation_manual_factor_2_in_user_calculator",
+            "status": "derived_from_drawing",
+            "usable_bobbin_area_mm2": null,
+            "assembly_factor_applied_in_database": 1,
+            "assembly_factor_applied_by_user": 2
+        },
+        "Ae_basis": "Amin",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 2830,
+            "minimum_nH_per_turn2": 2122,
+            "tolerance_percent": null,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "less_than",
+            "temperature_C": 25,
+            "basis": "assembled_set"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 642,
+                "maximum_power_W": 0.7,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 673.0769230769231
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 532,
+                "maximum_power_W": 0.58,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "set",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 557.6923076923077
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "source_inconsistency_flagged",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.48076923076922906,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN",
+                "SOURCE_LOSS_POWER_DENSITY_INCONSISTENCY"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_half_window_convention_preserved_per_user_instruction"
+        }
+    },
+    {
+        "id": "ZT41003TC",
+        "Bmax": 0.5,
+        "Ae": 7.3,
+        "B": 4.75,
+        "Aw": 17.72,
+        "Ve": 151,
+        "AL": 1330,
+        "Ploss": 715,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 9.53,
+        "C": 3.18,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 9.53,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 9.38,
+                "max_mm": 10.17,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 4.75,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 4.2,
+                "max_mm": 4.8,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 3.18,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 3.13,
+                "max_mm": 3.73,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 7.3,
+        "Amin": null,
+        "le": 20.7,
+        "geometry_source": {
+            "file": "ZT41003TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "97e4f36dc9f21b63fb66eaafd04128bda7a76b6ae00c285f636b174a00670663"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 17.720546061654925,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 4.75
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null,
+            "finished_aperture_min_mm2": 13.854423602330987,
+            "finished_aperture_max_mm2": 18.09557368467721
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 1330,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 715,
+                "maximum_power_W": 0.108,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 715.2317880794702,
+                "production_lot_average_max_density_mW_per_cm3": 650,
+                "production_lot_average_max_power_W": 0.098
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 673,
+                "maximum_power_W": 0.102,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 675.4966887417219,
+                "production_lot_average_max_density_mW_per_cm3": 612,
+                "production_lot_average_max_power_W": 0.093
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": 0.07284768211919257,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    },
+    {
+        "id": "0T40601TC",
+        "Bmax": 0.5,
+        "Ae": 2,
+        "B": 3.05,
+        "Aw": 7.31,
+        "Ve": 26.7,
+        "AL": 592,
+        "Ploss": 500,
+        "type_id": "TOROID",
+        "geometry_code": "TC",
+        "core_pieces_per_set": 1,
+        "A": 5.84,
+        "C": 1.52,
+        "dimensions": {
+            "A": {
+                "nominal_mm": 5.84,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 5.55,
+                "max_mm": 6.13,
+                "description": "outside_diameter"
+            },
+            "B": {
+                "nominal_mm": 3.05,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 2.76,
+                "max_mm": 3.34,
+                "description": "inside_diameter"
+            },
+            "C": {
+                "nominal_mm": 1.52,
+                "nominal_basis": "uncoated",
+                "limit_basis": "coated",
+                "min_mm": 1.33,
+                "max_mm": 1.71,
+                "description": "height"
+            }
+        },
+        "Ae_effective": 2.0,
+        "Amin": null,
+        "le": 13.0,
+        "geometry_source": {
+            "file": "0T40601TC.pdf",
+            "page": 1,
+            "type_source": {
+                "url": "https://www.mag-inc.com/Media/Magnetics/File-Library/Product%20Literature/Ferrite%20Literature/Magnetics2013FerriteCatalog.pdf",
+                "pdf_page_1_based": null,
+                "basis": "supplied datasheet circular drawing and diameter labels"
+            },
+            "sha256": "2723211623cb77d263b5b4174ed2ae3919ee3ba110f717a5925099e85e5c1a50"
+        },
+        "units": {
+            "dimensions": "mm",
+            "Ae": "mm2",
+            "Ae_effective": "mm2",
+            "Amin": "mm2",
+            "Aw": "mm2",
+            "Ve": "mm3",
+            "le": "mm",
+            "Bmax": "T",
+            "AL": "nH/turn2",
+            "Ploss": "mW/cm3"
+        },
+        "geometry_notes": [
+            "Dimension symbols follow the supplied drawing; meanings differ across core families.",
+            "Top-level scalar dimensions reproduce the tabulated value; dimensions gives its nominal/minimum/reference qualifier.",
+            "Ae uses Amin where supplied, for compatibility; Ae_effective is the effective magnetic area.",
+            "Aw is the ideal geometric area of ONE full winding window in the assembled set (or the toroid aperture), not the sum of both E-core windows and not usable bobbin area.",
+            "Geometric Aw excludes bobbin walls, insulation, margins, fillets and winding fill factor.",
+            "Coated limits in the DIMENSIONS header conflict with Uncoated in COATING. Values retained as printed; physical interpretation requires manufacturer confirmation."
+        ],
+        "type_name": "Toroidal",
+        "material_id": "T",
+        "Aw_geometry": {
+            "area_mm2": 7.306166415004762,
+            "formula": "pi * B**2 / 4",
+            "parameters_mm": {
+                "B": 3.05
+            },
+            "basis": "bare_nominal_circular_aperture",
+            "status": "derived_from_drawing",
+            "window_count_used": 1,
+            "usable_bobbin_area_mm2": null
+        },
+        "Ae_basis": "Ae_effective",
+        "AL_specification": {
+            "nominal_nH_per_turn2": 592,
+            "minimum_nH_per_turn2": null,
+            "tolerance_percent": 25,
+            "frequency_Hz": 10000,
+            "flux_density_mT": 0.5,
+            "flux_density_relation": "equal",
+            "temperature_C": 25,
+            "basis": "single_toroid"
+        },
+        "core_loss_specification": [
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 25,
+                "maximum_density_mW_per_cm3": 500,
+                "maximum_power_W": 0.0134,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 501.87265917602997
+            },
+            {
+                "frequency_Hz": 100000,
+                "flux_density_mT": 200,
+                "temperature_C": 100,
+                "maximum_density_mW_per_cm3": 480,
+                "maximum_power_W": 0.0128,
+                "density_basis": "explicit_in_pdf",
+                "limit_kind": "individual_core_maximum",
+                "power_basis": "single_toroid",
+                "density_recomputed_from_power_and_Ve_mW_per_cm3": 479.40074906367045
+            }
+        ],
+        "Ploss_conditions": {
+            "frequency_Hz": 100000,
+            "flux_density_mT": 200,
+            "temperature_C": 25,
+            "limit_kind": "individual_core_maximum",
+            "density_basis": "explicit_in_pdf"
+        },
+        "Bmax_status": "unverified_design_assumption_retained_from_input",
+        "Bmax_note": "0.5 T is not specified as Bmax in any supplied core PDF. It is neither the 0.5 mT AL test flux nor a verified operating limit at 400 kHz.",
+        "Bsat_material_reference": {
+            "value_T": 0.53,
+            "temperature_C": 25,
+            "field_A_per_cm": 11.9,
+            "source": "https://www.mag-inc.com/products/ferrite-cores/t-material",
+            "status": "material_characteristic_not_operating_Bmax"
+        },
+        "audit": {
+            "date": "2026-10-10",
+            "method": "visual PDF tables and drawings plus independent reference transcription and arithmetic checks",
+            "dimensions_status": "matches_supplied_pdf",
+            "magnetic_parameters_status": "matches_supplied_pdf",
+            "type_status": "verified",
+            "Ploss_status": "matches_reference_25C_limit",
+            "Ve_vs_Ae_effective_times_le_difference_percent": -2.621722846441943,
+            "issues": [
+                "BMAX_UNVERIFIED",
+                "AW_USABLE_UNKNOWN",
+                "COATING_COLUMN_LABEL_CONFLICT",
+                "EFFECTIVE_PARAMETER_ROUNDING_CHECK"
+            ],
+            "overall_status": "checked_with_explicit_limitations",
+            "Aw_status": "original_nominal_toroid_aperture_preserved"
+        }
+    }
+]

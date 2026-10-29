@@ -1,0 +1,16 @@
+# Documentación
+/Project_Documents/
+
+# Backups de KiCad
+/PSFB_PCB/PSFB-backups/
+*-backups/
+*.kicad_prl
+*.lck
+
+# Python
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.tmp
+*.bak

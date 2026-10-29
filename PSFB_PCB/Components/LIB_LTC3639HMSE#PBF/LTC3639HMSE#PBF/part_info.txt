@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LTC3639HMSE#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=13
+Version=2.3
+Released=2023-02-21 14:48:43
+Downloaded=2026-10-13 16:57:00
+3D=Y

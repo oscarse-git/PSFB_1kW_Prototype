@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 784777471
+D WE-PDA SMT Power Inductor Size 7345; L = 470 H +/-20%; IR = 0.35 A; Isat = 0.38 A; RDC = 2720 m
+K
+F https://www.we-online.com/catalog/datasheet/784777471.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=BZX84-A3V3,215
+PartCategory=Zener Diode
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=3.1
+Released=2018-07-24 12:12:28
+Downloaded=2026-10-13 12:40:48
+3D=Y

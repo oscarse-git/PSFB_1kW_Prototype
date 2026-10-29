@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA2376AQDRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-05-16 09:10:59
+Downloaded=2026-10-19 13:44:09
+3D=Y

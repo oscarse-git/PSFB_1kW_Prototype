@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=UA78M05CDCYG3
+PartCategory=Integrated Circuit
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=1.1
+Released=2020-09-14 12:06:09
+Downloaded=2026-10-28 17:21:16
+3D=Y

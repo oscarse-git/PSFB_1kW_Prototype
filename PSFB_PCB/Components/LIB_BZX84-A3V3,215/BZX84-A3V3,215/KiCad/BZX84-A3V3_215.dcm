@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZX84-A3V3,215
+D NEXPERIA - BZX84-A3V3,215 - ZENER DIODE, 0.25W, 3.3V, SOT-23, REEL
+K
+F https://assets.nexperia.com/documents/data-sheet/BZX84_SER.pdf
+$ENDCMP
+#
+#End Doc Library

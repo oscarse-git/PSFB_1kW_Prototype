@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPSI3050DWZR
+D Galvanically Isolated Gate Drivers Isolated switch driver with integrated 10-V gate supply 8-SO-MOD -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/tpsi3050.pdf?ts=1725435583662&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPSI3050
+$ENDCMP
+#
+#End Doc Library

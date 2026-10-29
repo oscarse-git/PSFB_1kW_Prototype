@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL431ID
+D 2% Accuracy Adjustable Precision Shunt Regulator
+K
+F http://www.ti.com/lit/ds/symlink/tl431.pdf
+$ENDCMP
+#
+#End Doc Library

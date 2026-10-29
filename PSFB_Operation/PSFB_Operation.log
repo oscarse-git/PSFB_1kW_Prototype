@@ -1,0 +1,15 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\oscar\Desktop\Uni\Master Advanced Power Electronics\Semester 3\PBL-PSFB_1kW\PSFB_Operation\PSFB_Operation.net
+Start Time: Mon Oct 19 19:58:29 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.750 seconds.
+
+Files loaded:
+C:\Users\oscar\Desktop\Uni\Master Advanced Power Electronics\Semester 3\PBL-PSFB_1kW\PSFB_Operation\PSFB_Operation.net
+C:\Users\oscar\AppData\Local\LTspice\lib\cmp\standard.dio
+

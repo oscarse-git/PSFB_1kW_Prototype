@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1731734
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=6.2
+Released=2016-10-26 10:39:59
+Downloaded=2026-10-21 15:34:56
+3D=Y

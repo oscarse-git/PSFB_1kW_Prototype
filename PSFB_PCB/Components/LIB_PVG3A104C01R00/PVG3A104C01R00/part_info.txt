@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PVG3A104C01R00
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2019-06-21 16:05:15
+Downloaded=2026-10-21 17:03:53
+3D=Y

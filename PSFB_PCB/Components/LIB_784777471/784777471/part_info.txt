@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=784777471
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=5.2
+Released=2025-10-24 09:24:46
+Downloaded=2026-10-21 16:01:05
+3D=Y

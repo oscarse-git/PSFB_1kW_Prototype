@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPSI3050DWZR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2024-09-05 04:17:29
+Downloaded=2026-10-21 14:11:20
+3D=Y

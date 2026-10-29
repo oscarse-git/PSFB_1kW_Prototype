@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMCS1133B7AQDVGR
+D Board Mount Current Sensors +/-1300V reinforced isolation 80ARMS 1M
+K
+F https://www.ti.com/product/TMCS1133#design-development
+$ENDCMP
+#
+#End Doc Library

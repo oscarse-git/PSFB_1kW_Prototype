@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ESD441DPLR
+#/19063521/1311107/2.50/2/3/TVS Diode (Uni-directional)
+DEF ESD441DPLR D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "ESD441DPLR" 400 250 50 H V L BNN
+F2 "ESD441DPLR" 400 150 50 H I L BNN
+F3 "https://www.ti.com/lit/ds/symlink/esd441.pdf?ts=1730589139389&ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F" 400 50 50 H I L BNN
+F4 "ESD Suppressors / TVS Diodes 1-pF, 5.5-V, 30-KV ESD protection device in 0201 package 2-X2SON -40 to 125" 400 -50 50 H I L BNN "Description"
+F5 "0.32" 400 -150 50 H I L BNN "Height"
+F6 "595-ESD441DPLR" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD441DPLR?qs=1Kr7Jg1SGW9UQFJqGMkN7Q%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Texas Instruments" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "ESD441DPLR" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

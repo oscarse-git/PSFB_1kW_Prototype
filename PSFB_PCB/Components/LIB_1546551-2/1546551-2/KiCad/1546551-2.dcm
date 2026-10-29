@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1546551-2
+D Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Wire Entry Location Side | Stacked Levels Without | Wire Entry Angle 90 | Number of Rows 1 | Stacking Configuration Side Stackable | Number of Positions 2 | Contact Features: Contact Current Rating (Max) 12 AMP | Contact Mating Area Plating Material Tin | Contact Base Material Copper Alloy | Dimensions: Wire Size .08  1.4 MMSQ | Wire Size 28  16 AWG | Electrical Characteristics: Operating Voltage 300 
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data%20Sheet&DocLang=English&PartCntxt=1546551-2&DocFormat=pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FSM2JSMAATR
+#/193129/1311107/2.50/4/2/Switch
+DEF FSM2JSMAATR S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "FSM2JSMAATR" 650 200 50 H V L CNN
+F2 "FSM2J_1" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1654270-2&DocType=Catalog%20Section&DocLang=English&PartCntxt=2-1437565-9&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Cover Material Steel | Case Material Polyamide | Actuator Force 9.17 OZ | Case Color Brown | Product Orientation Vertical | Actuator Color White | Actuator Force 260 G | Actuator Material Nylon | Actuator Profile Extended | Configuration Features: Ganged With | Configuration (Pole-Throw) Single Pole - Single Throw | Support Bracket Without | Switch Feedback Type Tactile | Number of Actuators Single | ESD Grounding Terminal Without | Operating Function NO | Contact Features: Switch Contact Pla" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "506-FSM2JSMAATR" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/FSM2JSMAATR?qs=g%252BEszo6zu8MKdISiZRITCQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FSM2JSMAATR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

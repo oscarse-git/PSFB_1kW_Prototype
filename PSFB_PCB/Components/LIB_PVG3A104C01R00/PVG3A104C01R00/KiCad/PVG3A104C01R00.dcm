@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PVG3A104C01R00
+D BOURNS - PVG3A104C01R00 - TRIMMER, POT, 100K, 1TURN, SMD
+K
+F https://www.bourns.com/docs/Product-Datasheets/pvg3.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV1702AIDGK
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2018-05-29 09:33:18
+Downloaded=2026-10-19 13:30:12
+3D=Y
