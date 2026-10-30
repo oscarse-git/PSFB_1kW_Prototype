@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS561208DDCT
+PartCategory=Power Supply
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2021-11-16 09:27:46
+Downloaded=2026-10-30 14:23:17
+3D=Y

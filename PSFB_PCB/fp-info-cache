@@ -1,4 +1,4 @@
-25647685810421134
+25653065911972602
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102655,6 +102655,13 @@ Connector
 2
 2
 oscar
+784777033
+7345_2025-1.1
+Inductor
+0
+2
+2
+oscar
 784777471
 7345_2025-1.3
 Inductor
@@ -102802,6 +102809,13 @@ Integrated Circuit
 16
 16
 oscar
+SOT95P280X110-6N
+6-Pin SOT
+Power Supply
+0
+6
+6
+oscar
 SOT95P280X145-5N
 DBV0005A
 Integrated Circuit
@@ -102829,6 +102843,13 @@ Integrated Circuit
 0
 10
 10
+oscar
+TRANSFORMER_PQ_PSFB
+
+
+0
+4
+4
 oscar
 UJ20CHGMSMT4BP16TR
 UJ20-C-H-G-MSMT-4B-P16-TR-2

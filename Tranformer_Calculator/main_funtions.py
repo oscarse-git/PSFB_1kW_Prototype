@@ -8,7 +8,7 @@ def get_data(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def calculate_full_transformer(param, transformer):
+def calculate_full_transformer(param, transformer, calculate_loss = False):
     results = {}
 
     results['id'] = transformer['id']
@@ -36,20 +36,20 @@ def calculate_full_transformer(param, transformer):
 
     # results['Rp'], results['Rs'] = calculate_resistance(transformer, param['secP'], param['secS'],
     #                                                     results['n1'], results['n2'])
+    if calculate_loss:
+        for loss_dict in transformer['core_loss_specification']:
+            tempMeas = loss_dict['temperature_C']
+            fMeas = loss_dict['frequency_Hz']
+            BmaxMeas = loss_dict['flux_density_mT'] * 1e-3
+            lossDensity = loss_dict['maximum_density_mW_per_cm3'] * 1e3
+            volume = transformer['Ve'] * 1e-9
 
-    for loss_dict in transformer['core_loss_specification']:
-        tempMeas = loss_dict['temperature_C']
-        fMeas = loss_dict['frequency_Hz']
-        BmaxMeas = loss_dict['flux_density_mT'] * 1e-3
-        lossDensity = loss_dict['maximum_density_mW_per_cm3'] * 1e3
-        volume = transformer['Ve'] * 1e-9
-        
-        temp = core_loss_estimation(volume, lossDensity, fMeas, BmaxMeas,
-                                    param['fs'], results['Bnom'])
+            temp = core_loss_estimation(volume, lossDensity, fMeas, BmaxMeas,
+                                        param['fs'], results['Bnom'])
 
-        results[f'P_loss {tempMeas}C lower'] = temp[0]
-        results[f'P_loss {tempMeas}C upper'] = temp[1]
-    
+            results[f'P_loss {tempMeas}C lower'] = temp[0]
+            results[f'P_loss {tempMeas}C upper'] = temp[1]
+
     results['Lp'], results['Ls'] = calculate_inductance(transformer['AL'] * 1e-9, 
                                                         results['n1'], results['n2'])
     

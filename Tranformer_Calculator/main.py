@@ -16,15 +16,41 @@ if __name__ == '__main__':
         "VoutDC" : 84.0,
 
         "ratio" : 0.25,
-        "secP" : 1.5,       
-        "secS" : 2.5,
+        "secP" : 0.5,       
+        "secS" : 1.5,
         "fillFactor" : 0.4,
 
         "Vf" : 2
     }
 
+    transformer = {
+        "id": "B65875A0000R049",
+        "type_id": "PQ",
+        "material": "N49",
 
-    sweep_all_database(param, path)
-    calculate_specific_transformer(selectedTransformer, param, path)
+        "Ae": 62.9,       # mm²
+        "Amin": 54.4,     # mm²
+        "Ve": 2850,      # mm³
+        "le": 45.2,      # mm
+        "AL": 2000,      # nH/turn²
+        "Bmax": .4,     # T - No especificado
+        "Aw": np.round(14 * (18-8.8)/2,4),       # mm² - No especificado
+
+        "core_loss_specification": [
+            {
+                "temperature_C": 100,
+                "frequency_Hz": 500e3,
+                "flux_density_mT": 50,
+                "maximum_density_mW_per_cm3": 315.79
+            }
+        ]
+    }
+
+    result = calculate_full_transformer(param, transformer, calculate_loss=True)
+
+    print_result(result, param, transformer)
+    df = pd.DataFrame([result])
+    df.to_excel("Selected_Transformer.xlsx", index=False)
+
 
 
