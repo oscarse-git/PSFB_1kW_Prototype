@@ -4564,18 +4564,6 @@
 		(uuid "021290b3-c2b8-4b7b-a08b-87cd4ef47780")
 	)
 	(no_connect
-		(at 45.72 60.96)
-		(uuid "08728eca-1880-46ee-a9c6-29d6a462620c")
-	)
-	(no_connect
-		(at 81.28 55.88)
-		(uuid "08c8a5af-c98a-4864-858d-d3475d6fdf72")
-	)
-	(no_connect
-		(at 81.28 48.26)
-		(uuid "2527d07c-2f26-40ed-9bf9-977a36cdcf9d")
-	)
-	(no_connect
 		(at 45.72 88.9)
 		(uuid "2b968995-5141-4c2a-870b-82a350fd78be")
 	)
@@ -4588,24 +4576,12 @@
 		(uuid "41f73b16-2734-46e2-811a-bdb687c00ffa")
 	)
 	(no_connect
-		(at 45.72 55.88)
-		(uuid "5684e0b1-58f8-462c-91bf-3843750e579f")
-	)
-	(no_connect
 		(at 81.28 81.28)
 		(uuid "776553c1-eefe-4b93-8e7c-9474ed39a745")
 	)
 	(no_connect
 		(at 132.08 96.52)
 		(uuid "858e805d-7611-445a-acd4-e225968c7fb5")
-	)
-	(no_connect
-		(at 81.28 58.42)
-		(uuid "865e0cad-fc64-4093-a64b-20ab1857626e")
-	)
-	(no_connect
-		(at 81.28 50.8)
-		(uuid "89c762d7-93aa-42a8-be9b-9635ee8678fd")
 	)
 	(no_connect
 		(at 45.72 43.18)
@@ -4616,10 +4592,6 @@
 		(uuid "9bbd9e95-90ce-4b47-ad4e-eda7920c83de")
 	)
 	(no_connect
-		(at 45.72 63.5)
-		(uuid "9e1aea39-7fa6-4fde-871e-92c2648d7f34")
-	)
-	(no_connect
 		(at 45.72 93.98)
 		(uuid "bacca6f9-8767-414b-87b4-cb15c8e6912b")
 	)
@@ -4628,24 +4600,12 @@
 		(uuid "bfd68ab2-4773-47e6-968b-1108ed18631c")
 	)
 	(no_connect
-		(at 81.28 53.34)
-		(uuid "d12586a3-4a38-4d2c-86ab-d8e95d0457da")
-	)
-	(no_connect
 		(at 81.28 68.58)
 		(uuid "d232915b-730c-4306-af8e-aff8eb30fb45")
 	)
 	(no_connect
 		(at 81.28 60.96)
 		(uuid "d23e665c-8108-45c1-b9f3-7f1c03cc93a6")
-	)
-	(no_connect
-		(at 45.72 53.34)
-		(uuid "d9ec76bf-4443-4f17-8e76-f07c5609e71d")
-	)
-	(no_connect
-		(at 45.72 66.04)
-		(uuid "e81d994d-4f5b-4d19-91b3-d6a03b4cceae")
 	)
 	(no_connect
 		(at 58.42 35.56)
@@ -5871,22 +5831,22 @@
 	)
 	(global_label "SSR"
 		(shape output)
-		(at 45.72 86.36 180)
+		(at 81.28 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "266df562-6f59-442e-880b-b431509522ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.0458 86.36 0)
+			(at 87.9542 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5937,22 +5897,22 @@
 	)
 	(global_label "LED_FAULT_BATTERY"
 		(shape output)
-		(at 45.72 83.82 180)
+		(at 81.28 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2ca05066-f88f-4858-835c-92d2230769cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.0477 83.82 0)
+			(at 102.9523 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6113,22 +6073,22 @@
 	)
 	(global_label "I_OUT_SENSE"
 		(shape input)
-		(at 81.28 45.72 0)
+		(at 45.72 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5dd9a334-4d68-4a6c-84f9-25e7babc1552")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.788 45.72 0)
+			(at 30.5187 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6201,22 +6161,22 @@
 	)
 	(global_label "CTRLA_L"
 		(shape output)
-		(at 81.28 63.5 0)
+		(at 45.72 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "69d135d2-3dd3-4a53-83ec-9d4667cefc43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.1876 63.5 0)
+			(at 35.1148 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6267,7 +6227,7 @@
 	)
 	(global_label "VDC_S_SENSE"
 		(shape input)
-		(at 45.72 106.68 180)
+		(at 45.72 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6277,7 +6237,7 @@
 		)
 		(uuid "83f83272-3772-431d-874f-702d3d93ba3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.914 106.68 0)
+			(at 29.914 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,22 +6271,22 @@
 	)
 	(global_label "LED_FAULT_MCU"
 		(shape output)
-		(at 45.72 81.28 180)
+		(at 81.28 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "86d3bebb-93d7-46e0-96a1-d51179e8cf3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7972 81.28 0)
+			(at 99.2028 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6531,22 +6491,22 @@
 	)
 	(global_label "I_IN_SENSE"
 		(shape input)
-		(at 45.72 71.12 180)
+		(at 81.28 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b4a10b0b-ff59-4b2c-992e-0d52f053dfd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.5187 71.12 0)
+			(at 94.788 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6663,22 +6623,22 @@
 	)
 	(global_label "VDC_P_SENSE"
 		(shape input)
-		(at 81.28 43.18 0)
+		(at 45.72 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c46b87a0-a1cd-4989-929d-0ec581e162a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1465 43.18 0)
+			(at 29.8535 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6773,7 +6733,29 @@
 	)
 	(global_label "CTRLA_H"
 		(shape output)
-		(at 81.28 66.04 0)
+		(at 45.72 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0b17fe4-97a7-4fc0-acaa-40e5c0c8b6de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.8124 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_OK"
+		(shape output)
+		(at 81.28 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6781,9 +6763,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d0b17fe4-97a7-4fc0-acaa-40e5c0c8b6de")
+		(uuid "d1854a4d-2fca-45d8-b25f-ab212e36c27e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 66.04 0)
+			(at 91.2804 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,90 +6775,68 @@
 			)
 		)
 	)
-	(global_label "LED_OK"
-		(shape output)
-		(at 45.72 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1854a4d-2fca-45d8-b25f-ab212e36c27e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.7196 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_MCU_ON"
 		(shape output)
-		(at 45.72 73.66 180)
+		(at 81.28 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d1f5a51b-d023-4eec-993c-205f7b19c837")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.6396 73.66 0)
+			(at 96.3604 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "LED_STATUS"
 		(shape output)
-		(at 45.72 78.74 180)
+		(at 81.28 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d319865e-2740-46c3-b525-8496e804f5c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.5468 78.74 0)
+			(at 95.4532 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "V_BAT_FLAG"
 		(shape input)
-		(at 45.72 109.22 180)
+		(at 81.28 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d71759b8-ddd5-4f03-91f4-ac7cb7ccc377")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9095 109.22 0)
+			(at 95.0905 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
