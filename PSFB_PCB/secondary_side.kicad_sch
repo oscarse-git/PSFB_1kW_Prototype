@@ -6891,7 +6891,7 @@
 			(fill
 				(type none)
 			)
-			(uuid cf381495-bee8-4262-b8d1-5143547e028a)
+			(uuid a6b62cea-bfc3-4637-9f07-f70cbdd22bb4)
 		)
 	)
 	(netclass_flag ""
@@ -8673,76 +8673,6 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 138.43 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "395e8974-6c2b-4f0c-af54-b5ad8a84ea34")
-		(property "Reference" "R37"
-			(at 76.454 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 76.454 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 78.74 140.208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47bcf810-f0de-44b3-9975-eedda4a0cc82")
-		)
-		(pin "2"
-			(uuid "bda3dd09-0db4-4389-848e-c4ab485d5b73")
-		)
-		(instances
-			(project "PSFB"
-				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -11212,6 +11142,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 78.74 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "827393f0-8992-44ed-8ddf-2b45286f0afc")
+		(property "Reference" "R38"
+			(at 76.327 132.2069 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 76.327 134.7469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 78.74 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2e800e8-7ad2-4799-94d8-bc4b955bfb8c")
+		)
+		(pin "2"
+			(uuid "d8e17248-45b6-4193-a709-3b6558b445b8")
+		)
+		(instances
+			(project "PSFB"
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 58.42 105.41 0)
 		(mirror x)
 		(unit 1)
@@ -11482,6 +11481,75 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8daa47c6-f926-4a88-b653-3a7565857188")
+		(property "Reference" "R37"
+			(at 61.087 132.2069 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 61.087 134.7469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 63.5 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd888fa5-654c-468d-96c2-e63f0356f34d")
+		)
+		(pin "2"
+			(uuid "6050e69b-9140-45ca-96e6-00f605572d9b")
+		)
+		(instances
+			(project "PSFB"
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -12529,76 +12597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 138.43 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd17064f-40db-4125-84c5-886fbf85966a")
-		(property "Reference" "R38"
-			(at 61.214 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 61.214 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 63.5 140.208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "118e938e-37a8-4d9f-a50e-956ad4591085")
-		)
-		(pin "2"
-			(uuid "5b1f1617-eb0e-44c5-a81b-bf770f0a5f2d")
-		)
-		(instances
-			(project "PSFB"
-				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 111.76 0)
 		(unit 1)
@@ -12658,6 +12656,75 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5109613-7bab-4d3b-9a12-e1e8609fb530")
+		(property "Reference" "R36"
+			(at 68.707 132.2069 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 68.707 134.7469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 71.12 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a61247ed-5a70-4dd1-b2fe-be0dac3cdaab")
+		)
+		(pin "2"
+			(uuid "5606a21e-d0c8-4780-ad59-09792c19247e")
+		)
+		(instances
+			(project "PSFB"
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -12988,76 +13055,6 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 71.12 138.43 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cedd8715-fade-4f49-89a8-bff56b9136ca")
-		(property "Reference" "R36"
-			(at 68.834 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 68.834 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 71.12 140.208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc4319f1-b0ee-4829-aa12-be366f1fb9dc")
-		)
-		(pin "2"
-			(uuid "7faf54b2-a6f6-4036-9760-e473a51b6b82")
-		)
-		(instances
-			(project "PSFB"
-				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
-					(reference "R36")
 					(unit 1)
 				)
 			)
