@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RCLAMP0521H.C'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SEMTECH", "RCLAMP0521H.C" (!) = "", "SOD2513X120N", "Small Outline Diode", "947-RCLAMP0521H.C", "https://www.mouser.co.uk/ProductDetail/Semtech/RCLAMP0521H.C?qs=jcD%2FCkGBYePZtUEAq397Aw%3D%3D", "ESD Protection Diodes / TVS Diodes 1-Line 5V 2.5PF 32A TVS SOD-323", "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/RQ000007Hf1B/vPffhsVs38epTVco.Mo3GMTGTpFM1S.gYOJkJXTYySg?__hstc=212684107.25bf8f496b490cb3388b9b4b53069746.1655825603780.1739899493241.1741098383171.112&__hssc=212684107.11.1741098383171&__hsfp=116748", "1.2 mm"
+END_PART
+
+END.

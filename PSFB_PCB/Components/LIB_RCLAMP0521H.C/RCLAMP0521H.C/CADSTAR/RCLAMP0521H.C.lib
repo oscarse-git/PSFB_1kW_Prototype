@@ -1,0 +1,16 @@
+.RCLAMP0521H.C :1 ;ESD Protection Diodes / TVS Diodes 1-Line 5V 2.5PF 32A TVS SOD-323
+SOD2513X120N
+*STM D
+*NGS
+*PLB 1="K1" 2="K2"
+*MXP 2
+*DFN RCLAMP0521H.C
+~!Mouser Part Number (947-RCLAMP0521H.C)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Semtech/RCLAMP0521H.C?qs=jcD%2FCkGBYePZtUEAq397Aw%3D%3D)
+~!Manufacturer_Name (SEMTECH)
+~!Manufacturer_Part_Number (RCLAMP0521H.C)
+~!Link Datasheet (https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/RQ000007Hf1B/vPffhsVs38epTVco.Mo3GMTGTpFM1S.gYOJkJXTYySg?__hstc=212684107.25bf8f496b490cb3388b9b4b53069746.1655825603780.1739899493241.1741098383171.112&__hssc=212684107.11.1741098383171&__hsfp=116748)
+~!Height (1.2mm)
+~!3D_Model (RCLAMP0521H.C)
+RCLAMP0521H.C
+1.1!U 2.1!U 

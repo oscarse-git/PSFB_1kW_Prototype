@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RCLAMP0521H_C"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-04-10-04:12:21)
+    (mountForm default
+        (footprintRef "SOD2513X120N")
+        (spec "System")
+    )
+)

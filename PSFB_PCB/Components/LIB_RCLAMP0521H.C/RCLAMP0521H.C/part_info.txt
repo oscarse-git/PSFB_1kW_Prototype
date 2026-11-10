@@ -1,0 +1,9 @@
+Manufacturer=SEMTECH
+PartNumber=RCLAMP0521H.C
+PartCategory=Diode ESD (Bi-directional)
+PackageCategory=Small Outline Diode
+PinCount=2
+Version=1.1
+Released=2025-08-22 10:17:53
+Downloaded=2026-11-09 17:19:06
+3D=Y

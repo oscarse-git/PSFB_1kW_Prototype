@@ -1,4 +1,4 @@
-25653065911972602
+25656654388655802
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102781,6 +102781,13 @@ ACPL-M61L-000E
 5
 5
 oscar
+SOD2513X120N
+SOD-323-2025
+Diode ESD (Bi-directional)
+0
+2
+2
+oscar
 SOIC127P600X175-8N
 OPA2376AQDRQ1
 Integrated Circuit
@@ -102822,6 +102829,13 @@ Integrated Circuit
 0
 5
 5
+oscar
+SOT95P280X145-6N
+SOT23-6L_1
+Integrated Circuit
+0
+6
+6
 oscar
 SOT230P700X180-4N
 DCY (R-PDSO-G4)
