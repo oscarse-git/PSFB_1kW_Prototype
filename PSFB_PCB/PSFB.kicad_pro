@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|124250000|33374250|935465bb-91ae-4686-a9ce-084ad1a1c82d|00000000-0000-0000-0000-000000000000",
-          "Excluded as the magenta lines had to be corrected to avoid another error"
-        ],
-        [
-          "lib_footprint_mismatch|219275000|65790000|b713db03-fba9-4c49-8307-49bc3bb6701d|00000000-0000-0000-0000-000000000000",
-          "Ignored as is edited to ensure that the gate, drain, source connect correctlyç"
-        ],
-        [
-          "lib_footprint_mismatch|219275000|76805000|cd1954d2-d2fb-48b3-88cb-ea9fb3d898f5|00000000-0000-0000-0000-000000000000",
-          "Ignored for the same reasin as Q2"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
