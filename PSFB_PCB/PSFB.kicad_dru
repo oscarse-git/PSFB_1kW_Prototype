@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "Transformer_Clearance_Primary"
+	(condition "A.NetName == 'transformer_P_A' || A.NetName == 'transformer_P_B' || A.NetName == 'Net-(L1-Pad2)' && A.NetName != B.NetName")
+	(constraint clearance (min 1.6mm))
+)
+
+(rule "Transformer_Clearance_Secondary"
+	(condition " A.NetName == 'transformer_S_P' || A.NetName == 'transformer_S_N' && A.NetName != B.NetName")
+	(constraint clearance (min 0.6mm))
+)

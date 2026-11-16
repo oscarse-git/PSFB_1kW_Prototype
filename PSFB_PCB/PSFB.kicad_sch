@@ -1080,6 +1080,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -4821,6 +4983,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 27.94) (xy 180.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ddbf2a-b834-4791-b0ea-fc233aa45e77")
+	)
+	(wire
+		(pts
 			(xy 68.58 31.75) (xy 68.58 35.56)
 		)
 		(stroke
@@ -4888,6 +5060,16 @@
 			(type default)
 		)
 		(uuid "187e9612-7fc8-4075-993e-29a9921747f0")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 189.23 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e95728-11ca-47eb-bdfa-f9a64e7936da")
 	)
 	(wire
 		(pts
@@ -5421,16 +5603,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 27.94) (xy 189.23 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d144d2-134d-405a-820c-09fbfb5618b0")
-	)
-	(wire
-		(pts
 			(xy 205.74 129.54) (xy 195.58 129.54)
 		)
 		(stroke
@@ -5801,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 38.1) (xy 189.23 38.1)
+			(xy 179.07 38.1) (xy 189.23 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5873,7 +6045,7 @@
 	)
 	(global_label "transformer_P_A"
 		(shape input)
-		(at 181.61 27.94 180)
+		(at 179.07 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5883,7 +6055,7 @@
 		)
 		(uuid "021dd1f2-a4a7-4705-a4f5-d15450906c0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.264 27.94 0)
+			(at 160.724 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6331,7 @@
 	)
 	(global_label "transformer_P_B"
 		(shape input)
-		(at 180.975 38.1 180)
+		(at 179.07 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6169,7 +6341,7 @@
 		)
 		(uuid "4bfbea14-dc66-40f8-946e-6819a1f4ad34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4476 38.1 0)
+			(at 160.5426 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,6 +8867,76 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336"
 					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 184.15 27.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37c774e6-160a-4963-9508-1804d5968a03")
+		(property "Reference" "L1"
+			(at 185.166 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L"
+			(at 185.166 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_THT_Wurth:L_Wurth_WE-HCFT-2012_LeadDiameter1.5mm"
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f397a59e-9461-4736-9608-f66b447315ec")
+		)
+		(pin "1"
+			(uuid "ca9e0ebb-9ad9-40f4-93cd-76814957f68a")
+		)
+		(instances
+			(project ""
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336"
+					(reference "L1")
 					(unit 1)
 				)
 			)
