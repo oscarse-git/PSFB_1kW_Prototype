@@ -989,6 +989,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink_Pad"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink_Pad"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink with electrical connection, 1 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_Pad_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
+						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
+						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
+						(xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -3765,8 +3884,24 @@
 		(uuid "12e99e3b-f578-4f68-89c6-2171a5dbe5a5")
 	)
 	(no_connect
+		(at 153.67 185.42)
+		(uuid "54cee83e-cd62-4255-9c0f-651704d0d970")
+	)
+	(no_connect
+		(at 153.67 177.8)
+		(uuid "64aa461e-191e-406d-a7e7-8a54774baa60")
+	)
+	(no_connect
 		(at 175.26 100.33)
 		(uuid "82bde49f-c769-447e-a49c-ed80f265fa2d")
+	)
+	(no_connect
+		(at 153.67 162.56)
+		(uuid "841a2ef7-d386-4454-88bb-e26f2700c1dd")
+	)
+	(no_connect
+		(at 153.67 170.18)
+		(uuid "aabd6504-aa77-46cd-a5a0-3ca19c49d899")
 	)
 	(no_connect
 		(at 144.78 143.51)
@@ -6891,7 +7026,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0c762aec-057a-4beb-b037-3cdba92b16bd)
+			(uuid 0872efce-574a-43bc-ac40-f372791cf202)
 		)
 	)
 	(netclass_flag ""
@@ -7249,6 +7384,73 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 153.67 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc343cc-6e87-4f82-9233-218ef1324c04")
+		(property "Reference" "HS1"
+			(at 157.48 158.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 157.48 160.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oscar:XSD-C4649_TO220_Heatsink"
+			(at 153.9748 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.9748 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dcaaa26-6105-4536-8793-23a912a07863")
+		)
+		(instances
+			(project ""
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -7649,6 +7851,73 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 153.67 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23339ed6-cd5a-402b-9d32-27bd85ad489d")
+		(property "Reference" "HS3"
+			(at 157.48 173.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 157.48 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oscar:XSD-C4649_TO220_Heatsink"
+			(at 153.9748 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.9748 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 153.67 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42a637d0-3904-4347-ba63-b6b4924c1645")
+		)
+		(instances
+			(project "PSFB"
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "HS3")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S3D10065A"
+		(property "Value" "FFSP2065B"
 			(at 40.64 159.7024 90)
 			(effects
 				(font
@@ -10453,6 +10722,73 @@
 			(project ""
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 153.67 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b29fd9-d37a-43de-b440-e5279bc51aea")
+		(property "Reference" "HS2"
+			(at 157.48 165.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 157.48 168.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oscar:XSD-C4649_TO220_Heatsink"
+			(at 153.9748 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.9748 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 153.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc369eee-7d5c-4e3e-a535-ba4b72dcde14")
+		)
+		(instances
+			(project "PSFB"
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "HS2")
 					(unit 1)
 				)
 			)
@@ -11921,7 +12257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S3D10065A"
+		(property "Value" "FFSP2065B"
 			(at 30.48 159.7024 90)
 			(effects
 				(font
@@ -13079,7 +13415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S3D10065A"
+		(property "Value" "FFSP2065B"
 			(at 30.48 147.0024 90)
 			(effects
 				(font
@@ -13624,7 +13960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S3D10065A"
+		(property "Value" "FFSP2065B"
 			(at 40.64 147.0024 90)
 			(effects
 				(font
@@ -14029,6 +14365,73 @@
 			(project "PSFB"
 				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 153.67 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8885b60-b8f5-4616-8b31-dc56b53fe0b6")
+		(property "Reference" "HS4"
+			(at 157.48 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 157.48 183.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oscar:XSD-C4649_TO220_Heatsink"
+			(at 153.9748 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.9748 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 153.67 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f303717-402e-47cb-bab7-e67e961d68df")
+		)
+		(instances
+			(project "PSFB"
+				(path "/9378b4ad-d284-4009-8071-4a136b44f336/76c6f2f9-a651-4239-9363-970309ff690e"
+					(reference "HS4")
 					(unit 1)
 				)
 			)

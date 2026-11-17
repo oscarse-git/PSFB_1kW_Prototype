@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_889947"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-07-16-08:20:14)
+    (utime 2026-07-25-10:09:54)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "647-10ABEP")
+)
+
+
+(pinAssign "ECS_889947"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-07-16-08:20:14)
+    (utime 2026-07-25-10:09:54)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_889947")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "647-10ABEP")
+)
+
+
+(part "647-10ABEP"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-07-16-08:20:14)
+    (utime 2026-07-25-10:09:54)
+    (packageRef "647-10ABEP")
+    (pinAssignRef "ECS_889947")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "H")
+    (property "description" "Heat Sinks High Efficiency Heat Sink for Vertical Board Mounting for TO-220, Aluminum, Black Anodized, 41.9x25.4mm, 25.4mm Height")
+    (property "Mouser_Part_Number" "567-647-10ABEP")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-10ABEP?qs=1%252ByrAFyf4wFeJ179Dqrpyw%3D%3D")
+    (property "Manufacturer_Name" "Wakefield Thermal")
+    (property "Manufacturer_Part_Number" "647-10ABEP")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 25.4)
+)
+
+
