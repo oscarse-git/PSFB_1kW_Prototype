@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 750319690
+#/19911174/1311107/2.50/6/2/Transformer
+DEF 750319690 T 0 30 Y Y 1 F N
+F0 "T" 1250 300 50 H V L CNN
+F1 "750319690" 1250 200 50 H V L CNN
+F2 "750319690" 1250 100 50 H I L CNN
+F3 "https://www.we-online.com/components/products/datasheet/750319690.pdf" 1250 0 50 H I L CNN
+F4 "WE-PPTI Push-Pull Transformer TOR6/3/3 SMT; Ui = 12V; Uo1 = 5V/0.7A; f = 400-600kHz" 1250 -100 50 H I L CNN "Description"
+F5 "5.5" 1250 -200 50 H I L CNN "Height"
+F6 "710-750319690" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/750319690?qs=1Kr7Jg1SGW%2Fxuc9sXU4Xvg%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "750319690" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X N1+ 1 0 0 200 R 50 50 0 0 P
+X N1-/N2+ 2 0 -100 200 R 50 50 0 0 P
+X N2- 3 0 -200 200 R 50 50 0 0 P
+X N4- 4 1400 -200 200 L 50 50 0 0 P
+X N4+/N3- 5 1400 -100 200 L 50 50 0 0 P
+X N3+ 6 1400 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

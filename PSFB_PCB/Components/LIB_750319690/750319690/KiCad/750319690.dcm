@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 750319690
+D WE-PPTI Push-Pull Transformer TOR6/3/3 SMT; Ui = 12V; Uo1 = 5V/0.7A; f = 400-600kHz
+K
+F https://www.we-online.com/components/products/datasheet/750319690.pdf
+$ENDCMP
+#
+#End Doc Library

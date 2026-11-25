@@ -1,0 +1,16 @@
+.750319690 :1 ;WE-PPTI Push-Pull Transformer TOR6/3/3 SMT; Ui = 12V; Uo1 = 5V/0.7A; f = 400-600kHz
+"750319690"
+*STM T
+*NGS
+*PLB 1="N1+" 2="N1-/N2+" 3="N2-" 4="N4-" 5="N4+/N3-" 6="N3+"
+*MXP 6
+*DFN 750319690
+~!Mouser Part Number (710-750319690)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/750319690?qs=1Kr7Jg1SGW%2Fxuc9sXU4Xvg%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (750319690)
+~!Link Datasheet (https://www.we-online.com/components/products/datasheet/750319690.pdf)
+~!Height (5.5mm)
+~!3D_Model (750319690)
+"750319690"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

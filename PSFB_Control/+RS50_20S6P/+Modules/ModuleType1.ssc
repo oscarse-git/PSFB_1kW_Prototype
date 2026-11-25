@@ -1,0 +1,107 @@
+component ModuleType1
+    % ModuleType1:2
+    % Module Block
+    %    Model resolution: Lumped
+    %    Number of parallel assemblies: 7
+    %    Number of cells per parallel assembly: 6
+    %
+    %    MATLAB version: 25.2
+    %    Simscape Battery version: 25.2
+    %    Simscape code generated on: 18-Nov-2026 18:53:47
+
+    parameters
+        BatteryCapacityCell = {27,'A*hr'}; % Battery capacity
+        ExtrapolationMethodCell = {simscape.enum.extrapolation.nearest,'1'}; % Extrapolation method for all tables
+        SOCBreakpointsCell = {[0, .1, .25, .5, .75, .9, 1],'1'}; % State of charge breakpoints, SOC
+        OpenCircuitVoltageCell = {[3.5057, 3.566, 3.6337, 3.7127, 3.9259, 4.0777, 4.1928],'V'}; % Open-circuit voltage, OCV(SOC)
+        VoltageRangeCell = {[0, inf],'V'}; % Terminal voltage operating range, [Min Max]
+        ResistanceSOCBreakpointsCell = {[0, .1, .25, .5, .75, .9, 1],'1'}; % State of charge breakpoints for resistance, SOC
+        R0Cell = {[.0085, .0085, .0087, .0082, .0083, .0085, .0085],'Ohm'}; % Instantaneous resistance, R0(SOC)
+    end
+
+    parameters(ExternalAccess=none)
+        P = 6; % Batteries in Parallel
+        S = 7; % Batteries in Series
+    end
+
+    nodes
+        p = foundation.electrical.electrical; % +
+        n = foundation.electrical.electrical; % -
+    end
+
+    variables
+        socCell = {value={1,'1'},priority=priority.high}; % Cell state of charge
+        batteryVoltage = {0,'V'}; % Terminal voltage
+        batteryCurrent = {0,'A'}; % Current (positive in)
+        numCycles = {value={0,'1'},priority=priority.high}; % Discharge cycles
+        vParallelAssembly = {value={repmat(0,7,1),'V'},priority=priority.none}; % Parallel Assembly Voltage
+        socParallelAssembly = {value={repmat(1,7,1),'1'},priority=priority.none}; % Parallel Assembly state of charge
+    end
+
+    intermediates
+        power_dissipated = RS50.power_dissipated*((S*P)-1); % Power dissipated by (S*P)-1 cells
+    end
+
+    equations
+        assert(length(socCell) == 1);
+        assert(length(batteryVoltage) == 1);
+        assert(length(batteryCurrent) == 1);
+        assert(length(numCycles) == 1);
+        assert(length(vParallelAssembly) == S);
+        assert(length(socParallelAssembly) == S);
+        vParallelAssembly(1) == RS50(1).p.v - RS50(1).n.v;
+        socParallelAssembly(1) == RS50.stateOfCharge;
+        RS50.stateOfCharge == socCell;
+        RS50.batteryVoltage == batteryVoltage;
+        RS50.batteryCurrent == batteryCurrent;
+        RS50.numCycles == numCycles;
+    end
+
+    components(ExternalAccess=observe)
+        RS50 = batt.cells.batteryEquivalentCircuit(BatteryCapacity = BatteryCapacityCell,ExtrapolationMethod = ExtrapolationMethodCell,...
+            SOCBreakpoints = SOCBreakpointsCell,OpenCircuitVoltage = OpenCircuitVoltageCell,...
+            VoltageRange = VoltageRangeCell,...
+            ResistanceSOCBreakpoints = ResistanceSOCBreakpointsCell,R0 = R0Cell,...
+            CurrentDependence = simscape.battery.enum.cells.CurrentDependence.Disabled,...
+            SelfDischargeResistor = simscape.battery.enum.cells.BatteryEnable.Disabled,...
+            RCPairs = simscape.battery.enum.cells.RCPairs.noDynamics,...
+            CyclingAgingMethod = simscape.battery.enum.cells.CyclingAgingMethod.disabled,...
+            CalendarAgeResistance = simscape.battery.enum.cells.BatteryEnable.Disabled,...
+            CalendarAgeCapacity = simscape.battery.enum.cells.BatteryEnable.Disabled,...
+            ThermalModel = simscape.battery.enum.cells.BatteryThermalModel.TemperatureIndependent,...
+            HysteresisModel = simscape.battery.enum.cells.HysteresisModel.none,...
+            ReversibleHeatModel = simscape.battery.enum.cells.ReversibleHeatModel.Disabled,...
+            CalendarAgingMethod = simscape.battery.enum.cells.CalendarAgingMethod.equation,...
+            StorageVariable = simscape.battery.enum.cells.StorageVariable.OCV,...
+            stateOfCharge.priority = priority.none,batteryVoltage.priority = priority.none,...
+            batteryCurrent.priority = priority.none,numCycles.priority = priority.none);
+    end
+
+    components(Access=private)
+        PositiveAdapter = RS50_20S6PLumpingAdapters.ElectricalLumpingAdapter(CellsInParallel = P,CellsInSeries = S);
+        NegativeAdapter = RS50_20S6PLumpingAdapters.ElectricalLumpingAdapter(CellsInParallel = P,CellsInSeries = S);
+    end
+
+    connections
+        connect(n,NegativeAdapter.LumpedNode);
+        connect(NegativeAdapter.CellNode,RS50.n);
+        connect(p,PositiveAdapter.LumpedNode);
+        connect(PositiveAdapter.CellNode,RS50.p);
+    end
+
+    annotations
+        [p] : Side=top;
+        [n] : Side=bottom;
+        UILayout = [UIGroup("Main",BatteryCapacityCell,ExtrapolationMethodCell),...
+            UIGroup("Open Circuit Voltage",SOCBreakpointsCell,OpenCircuitVoltageCell,VoltageRangeCell),...
+            UIGroup("Overpotential",ResistanceSOCBreakpointsCell,R0Cell)];
+        Icon = 'module.svg';
+    end
+
+    for ParallelAssemblyIdx = 2:S
+        equations
+            vParallelAssembly(1) == vParallelAssembly(ParallelAssemblyIdx);
+            socParallelAssembly(1) == socParallelAssembly(ParallelAssemblyIdx);
+        end
+    end
+end

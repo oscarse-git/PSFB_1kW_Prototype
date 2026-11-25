@@ -7026,7 +7026,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0872efce-574a-43bc-ac40-f372791cf202)
+			(uuid 23a8dabc-c4ce-44dd-b0f9-c3c69e688799)
 		)
 	)
 	(netclass_flag ""
@@ -7408,7 +7408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
+		(property "Value" "647-10ABEP"
 			(at 157.48 160.6549 0)
 			(effects
 				(font
@@ -7875,7 +7875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
+		(property "Value" "647-10ABEP"
 			(at 157.48 175.8949 0)
 			(effects
 				(font
@@ -10746,7 +10746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
+		(property "Value" "647-10ABEP"
 			(at 157.48 168.2749 0)
 			(effects
 				(font
@@ -14389,7 +14389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
+		(property "Value" "647-10ABEP"
 			(at 157.48 183.5149 0)
 			(effects
 				(font

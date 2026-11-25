@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=750319690
+PartCategory=Transformer
+PackageCategory=Other
+PinCount=6
+Version=5.3
+Released=2026-11-21 07:09:07
+Downloaded=2026-11-24 13:27:41
+3D=Y

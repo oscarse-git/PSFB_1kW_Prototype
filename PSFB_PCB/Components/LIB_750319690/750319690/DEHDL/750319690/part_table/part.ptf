@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '750319690'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "750319690" (!) = "", "750319690", "Other", "710-750319690", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/750319690?qs=1Kr7Jg1SGW%2Fxuc9sXU4Xvg%3D%3D", "WE-PPTI Push-Pull Transformer TOR6/3/3 SMT; Ui = 12V; Uo1 = 5V/0.7A; f = 400-600kHz", "https://www.we-online.com/components/products/datasheet/750319690.pdf", "5.5 mm"
+END_PART
+
+END.

@@ -1,4 +1,4 @@
-25660244072754249
+25663835126464840
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102662,6 +102662,13 @@ Connector
 2
 2
 oscar
+750319690
+750319690-2
+Transformer
+0
+6
+6
+oscar
 784777033
 7345_2025-1.1
 Inductor
@@ -102731,6 +102738,13 @@ MODULE_NUCLEO-L432KC
 0
 30
 30
+oscar
+MSOP-10_MSE_LIT-L
+
+LT3999EMSE-TRPBF 
+0
+11
+11
 oscar
 PG-TO220AB_INF
 

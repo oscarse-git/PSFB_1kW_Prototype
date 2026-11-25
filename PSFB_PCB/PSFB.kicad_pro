@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.159,
+          "width": 1.9304
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -70,6 +70,10 @@
         [
           "lib_footprint_mismatch|134077101|43011351|935465bb-91ae-4686-a9ce-084ad1a1c82d|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "lib_footprint_mismatch|165862101|92565100|04531b67-74cf-4fb1-b9aa-d1ecd988c69e|00000000-0000-0000-0000-000000000000",
+          "was wrong, epad changed to GND per the datasheet"
         ],
         [
           "lib_footprint_mismatch|229485000|90250000|cd1954d2-d2fb-48b3-88cb-ea9fb3d898f5|00000000-0000-0000-0000-000000000000",
@@ -761,6 +765,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -799,7 +809,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/oscar/Desktop/Uni/Master Advanced Power Electronics/Semester 3/PBL-PSFB_1kW/PSFB_PCB/",
+    "plot_directory": "Schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

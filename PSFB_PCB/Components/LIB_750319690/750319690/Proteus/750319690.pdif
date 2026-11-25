@@ -1,0 +1,136 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "750319690"
+   (description "WE-PPTI Push-Pull Transformer TOR6/3/3 SMT; Ui = 12V; Uo1 = 5V/0.7A; f = 400-600kHz")
+   (family "XFR")
+   (package "750319690")
+   (attribute "Datasheet Link" "https://www.we-online.com/components/products/datasheet/750319690.pdf")
+   (attribute "Geometry.Height" "5.5mm")
+   (attribute "Mouser Part Number" "710-750319690")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/750319690?qs=1Kr7Jg1SGW%2Fxuc9sXU4Xvg%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "750319690")
+   (gate
+    (symbol "750319690")
+    (pin "N1+" 1 PS)
+    (pin "N1-/N2+" 2 PS)
+    (pin "N2-" 3 PS)
+    (pin "N4-" 4 PS)
+    (pin "N4+/N3-" 5 PS)
+    (pin "N3+" 6 PS)
+   )
+  )
+  (symbol "750319690"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "750319690"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.725 4.25)
+      (pt 4.725 4.25)
+      (pt 4.725 -4.25)
+      (pt -4.725 -4.25)
+      (pt -4.725 4.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.635 5.25)
+      (pt 7.635 5.25)
+      (pt 7.635 -5.25)
+      (pt -7.635 -5.25)
+      (pt -7.635 5.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.725 -3.75)
+      (pt -4.725 -4.25)
+      (pt 4.725 -4.25)
+      (pt 4.725 -3.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.725 3.75)
+      (pt -4.725 4.25)
+      (pt 4.725 4.25)
+      (pt 4.725 3.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.1 2.54)
+      (arc (pt -7.100 2.540) (pt -7.200 2.490) (pt -7.100 2.590) (start 180.0) (sweep .0))
+      (pt -7.2 2.54)
+      (arc (pt -7.200 2.540) (pt -7.200 2.490) (pt -7.100 2.590) (start 180.0) (sweep 180.0))
+      (pt -7.1 2.54))))
+   (leg 1 (pt -5.725 2.540) (padstack 0))
+   (leg 2 (pt -5.725 0.000) (padstack 0))
+   (leg 3 (pt -5.725 -2.540) (padstack 0))
+   (leg 4 (pt 5.725 -2.540) (padstack 0))
+   (leg 5 (pt 5.725 0.000) (padstack 0))
+   (leg 6 (pt 5.725 2.540) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.220 1.820 0 0 0.000))
+   )
+   (model "750319690.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
